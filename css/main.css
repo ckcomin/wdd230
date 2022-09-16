@@ -1,0 +1,26 @@
+#content{
+    margin: 0 auto;
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #145d25ef;
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+    align-items: center;
+}
+footer{
+    background-color: #145d25ef;
+    color: white;
+    text-align: center;
+}
+#datediv{
+    color: yellow;
+}
+
+header div img{
+    padding-top: 5%;
+}
