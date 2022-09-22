@@ -4,7 +4,6 @@ header {
     color: white;
     font-size: 18pt;
     text-align: center;
-    padding-bottom: 5px;
 }
 
 footer{
@@ -19,7 +18,10 @@ section{
     border-color: black;
     text-align: center;
     align-items: center;
-    max-width: 100%;
+    
+}
+img{
+    width: 90%;
 }
 
 .sectionheader {
@@ -28,30 +30,28 @@ section{
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 18pt;
 }
+
 h3 {
     font-family: 'Raleway', sans-serif;
-    
 }
+
 p {
     font-family: 'Raleway', sans-serif;
 }
 
-main {
+main{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
 @media screen and (min-width: 600px) {
-    header {
-        background-color: #010506ef;
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 900px) {
-    header {
-        background-color: #5c1b10ef;
-    }
-
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
