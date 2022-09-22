@@ -38,7 +38,22 @@ p {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
+@media screen and (min-width: 600px) {
+    header {
+        background-color: #010506ef;
+    }
+}
 
+@media screen and (min-width: 900px) {
+    header {
+        background-color: #5c1b10ef;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
