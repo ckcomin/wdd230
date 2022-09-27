@@ -1,0 +1,35 @@
+header {
+    background-color:#2f155c;
+    color: white;
+    /* display: grid;
+    grid-template-columns: 150px auto; */
+}
+
+nav {
+    background-color:#7554ad;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    /* color: #0E0E52; */
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #0E0E52;
+    /* color: #FF8360; */
+}
+
+@media screen  and (min-width: 600px) {
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    nav a {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
