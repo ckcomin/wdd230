@@ -1,35 +1,46 @@
 header {
     background-color:#2f155c;
     color: white;
-    /* display: grid;
-    grid-template-columns: 150px auto; */
+    text-align: center;
+    display: flex;
+    justify-content: space-around; 
+    font-size: 18pt;
+}
+
+footer{
+    background-color: #2f155c;
+    color: white;
+    text-align: center;
 }
 
 nav {
     background-color:#7554ad;
-    /* display: flex;
-    justify-content: space-around; */
 }
 
 nav a {
     display: block;
     text-align: center;
-    /* color: #0E0E52; */
     text-decoration: none;
+    color: white;
+    font-size: 18pt;
+    padding: 2%;
 }
 
 nav a:hover {
-    background-color: #0E0E52;
-    /* color: #FF8360; */
+    background-color: #2f155c;
+    
 }
 
 @media screen  and (min-width: 600px) {
-    nav {
-        display: flex;
-        justify-content: space-around;
+    header {
+        font-size: 25pt;
     }
-    nav a {
+    nav {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+    nav a {
+        padding: 8%;
     }
 }
