@@ -1,20 +1,28 @@
 header {
-    background-color:#2f155c;
+    background-color:#283593;
     color: white;
     text-align: center;
     display: flex;
     justify-content: space-around; 
-    font-size: 18pt;
+}
+
+header h1{
+    padding-left: 2%;
+}
+
+header img {
+    align-items: center;
+    padding: 15% 5%;
 }
 
 footer{
-    background-color: #2f155c;
+    background-color: #283593;
     color: white;
     text-align: center;
 }
 
 nav {
-    background-color:#7554ad;
+    background-color:#5f5fc4; 
 }
 
 nav a {
@@ -27,8 +35,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #2f155c;
-    
+    background-color: #001064;
+    color: white;
+}
+
+.highlight {
+    background-color: #001064;
+    color: white;
 }
 
 @media screen  and (min-width: 600px) {
