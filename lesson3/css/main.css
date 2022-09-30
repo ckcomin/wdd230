@@ -1,13 +1,15 @@
 header {
-    background-color:#283593;
+    background-color:#3949ab;
     color: white;
     text-align: center;
     display: flex;
     justify-content: space-around; 
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 header h1{
     padding-left: 2%;
+    padding: 10%;
 }
 
 header img {
@@ -16,38 +18,105 @@ header img {
 }
 
 footer{
-    background-color: #283593;
+    background-color: #3949ab;
     color: white;
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16pt;
 }
 
 nav {
-    background-color:#5f5fc4; 
+    background-color: #388e3c;
+    border-top: 2px white solid;
+    color: white;
 }
 
 nav a {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: white;
     font-size: 18pt;
     padding: 2%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav a:hover {
-    background-color: #001064;
+    background-color: #00701a;
     color: white;
 }
 
 .highlight {
-    background-color: #001064;
+    background-color: #00701a;
     color: white;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+main{
+    padding: 1rem;
+}
+
+main table{
+    width: 100%;
+    border: 2px ;
+}
+
+main table th{
+    border: 2px #00600f solid;
+    margin: 0px;
+    padding: 0px;    
+    background-color: #388e3c;
+}
+
+main table td{
+    border: 2px black solid;
+}
+
+#site-header-sample{
+    background-color: #3949ab;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25pt;
+    color: white;
+}        
+
+#h1-sample{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25pt;
+    color: #3949ab;
+}
+
+#primary-nav-sample {
+    background-color: #388e3c;
+    font-family: 'Poppins', sans-serif;
+}
+
+#footer-sample {
+    background-color: #3949ab;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#h2-sample {
+    font-family: 'Poppins', sans-serif;
 }
 
 @media screen  and (min-width: 600px) {
     header {
         font-size: 25pt;
     }
+
+    header h1{
+        padding-left: 2%;
+        padding: 0%;
+    }
+
     nav {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
