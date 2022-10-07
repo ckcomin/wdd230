@@ -1,0 +1,137 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3949ab;
+    color: white;
+    padding-bottom: 5%;
+    margin-bottom: 3%;
+}
+
+h1 {
+    text-align: left;
+    font-size: 25pt;
+    margin-left: -40px;
+
+} 
+
+h2 {
+    font-size: 13pt;
+    margin-top: -20px;
+    margin-left: -40px;
+    position: absolute;
+}
+
+img {
+    width: 60%;
+    padding: 5%;
+}
+
+nav {
+	margin: 0 auto;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+    color: white;
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	content: "";
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: #43a047;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+#datediv {
+    background-color: #6f74dd;
+    text-align: center;
+    grid-column: 1/4;
+    color: black;
+    grid-row: 2/3;
+
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+main div {
+    border-top: 8px white solid;
+    background-color: grey;
+    min-height: 100px;
+}
+
+p {
+    margin: 5%;
+}
+
+#join {
+    display: none
+}
+
+#spotlight1 {
+    border: 1px black solid;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#spotlight2 {
+    border: 1px black solid;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+footer {
+    margin-top: 5%;
+    background-color: #3949ab;
+    color: white;
+    text-align: center;
+}
+/* Media Query for medium+ views */
+@media only screen and (min-width: 50.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
