@@ -1,69 +1,91 @@
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
     background-color: #3949ab;
+	display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+	/* align-items: center; */
+    height: 130px;
     color: white;
-    padding-bottom: 5%;
-    margin-bottom: 3%;
 }
 
-h1 {
-    text-align: left;
-    font-size: 25pt;
-    margin-left: -40px;
+.logo {
+    display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
 
-} 
+.logo img {
+    margin-top: 5%;
+    margin-bottom: 10%;
+	width: 80px;
+	height: auto;
+}
+
+.headwords {
+    margin-top: -5%;
+    display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+}
+
+.headwords h1 {
+    font-size: 18pt
+}
 
 h2 {
-    font-size: 13pt;
-    margin-top: -20px;
-    margin-left: -40px;
-    position: absolute;
+    margin-top: -10%;
+	font-size: 0.8rem;
 }
 
-img {
-    width: 60%;
-    padding: 5%;
+.social {
+	margin-left: 40%; 
+    padding-top: 20%;
+}
+
+.social svg {
+	width: 25px;
+	height: auto;
 }
 
 nav {
 	margin: 0 auto;
 }
+
 .navigation {
 	list-style: none;
-	padding: 0;
+	padding: 5%;
 }
+
 .navigation li:first-child {
 	display: block;
 }
+
 .navigation li {
 	display: none;
 }
+
 .navigation a {
-    color: white;
-	display: block;
-	padding: 0.75rem;
+	display: flex;
 	text-align: left;
 	text-decoration: none;
 	font-weight: 700;
 	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
-}
-
-.navigation a.ham::before {
-	content: "";
+	font-size: 18pt;
+    color: white;
 }
 
 .navigation a:hover {
-	color: white;
-	background-color: #43a047;
+	color: black;
+	background-color: #00701a;
 }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
 */
 .responsive li {
-	display: block;
+	display: flex;
 }
 
 .responsive a.ham::before {
@@ -72,11 +94,11 @@ nav {
 
 #datediv {
     background-color: #6f74dd;
+    color: black;
     text-align: center;
     grid-column: 1/4;
-    color: black;
-    grid-row: 2/3;
-
+    grid-auto-flow: 2/3;
+    height: 20px;
 }
 
 main {

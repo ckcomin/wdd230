@@ -1,20 +1,61 @@
 @media only screen and (min-width: 50.5em) {
-    #headwords{
-        margin-top: 8%;
-        margin-bottom: 8%;
-    }
-    
-	.navigation {
-		display: flex;
+	header {
+		height: 600px;
+		grid-column: 1fr 2fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
 	}
+	.logo img {
+		width: 100%;
+	}
+
+	.headwords h1 {
+		font-size: 40pt;
+		text-align: center;
+		grid-column: 2/3;
+	
+	}
+
+	h2 {
+		letter-spacing: 1.5pt;
+		font-size: 18pt;
+		
+	}
+	.social {
+		margin-right: 30%;
+	}
+	nav{
+		grid-row: 2/3;
+		grid-column: 1/4;
+		width: 100%;
+	}
+	.navigation {
+		display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		gap: 10px;
+		background-color: #43a047;
+	}
+
 	.navigation li {
 		display: block; /* change state in small view */
-		flex: 1 1 auto;
+		/* flex: 1 1 auto; */
 	}
+
 	.navigation a {
 		text-align: center;
+		text-decoration: none;
+		font-size: 18pt;
+		color: black;
+	}
+
+	.navigation a:hover {
+		width: 100%;
 	}
 	.navigation li:first-child {
 		display: none;
+	}
+
+	#datediv {
+		height: 30px;
+		text-align: center;
 	}
 }
