@@ -8,11 +8,13 @@ const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(to
 // long, medium, short options ... try them
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation')
+//hamburger
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+function toggleMenu() {
+    document.getElementById("priNav").classList.toggle("open");
+    document.getElementById("hamBtn").classList.toggle("open");
+}
 
-// To solve the mid resizing issue with responsive class on
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+const x = document.getElementById("hamBtn")
+x.onclick = toggleMenu;
 
