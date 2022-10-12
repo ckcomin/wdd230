@@ -29,7 +29,7 @@ header {
     font-size: 18pt;
 }
 
-h2 {
+.headwords h2 {
     margin-top: -10%;
 	font-size: 0.8rem;
 }
@@ -132,6 +132,27 @@ main div p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+#hero {
+
+	position: relative;
+}
+
+#hero p {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#eee, #4567aa);
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: 0.8;
+    margin: 0;
+}
+
+
+#hero img{
+    width: 100%;
+}
+
 #join {
     display: none
 }
@@ -177,4 +198,8 @@ footer {
 #normfooter {
     border-top: 1px solid rgba(0,0,0,.3);
     padding-top: 3%;
+}
+
+.location {
+    width: 3%;
 }
