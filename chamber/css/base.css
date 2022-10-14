@@ -136,17 +136,29 @@ nav ul li.highlight a {
 main {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
 }
 
 main div {
     border-top: 8px white solid;
     background-color: #eee;
+    height: fit-content; 
 }
 
-main div h2 h3 p {
-    margin: 5%;
-    padding: 5%;
+main div h2, h3, p {
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+main h2{
+    font-size: 20pt;
+}
+
+main h3 {
+    font-size: 18pt;
+}
+
+main p {
+    font-size: 15pt;
 }
 
 #hero {
@@ -164,6 +176,7 @@ main div h2 h3 p {
 
 #hero img{
     width: 100%;
+    height: 100%;
 }
 
 .joinus {
@@ -183,6 +196,19 @@ main div h2 h3 p {
 .joinus:hover {
     background-color: #3949ab;
     color: white;
+}
+
+#degree {
+    border-top: 0;
+    align-items: center;
+    display: flex;
+    margin-left: 30%;
+}
+
+#weather img {
+    width: 30%;
+    border-top: 0;
+    
 }
 
 #join {
@@ -228,9 +254,8 @@ footer {
 
 }
 
-#normfooter {
-    border-top: 1px solid rgba(0,0,0,.3);
-    padding-top: 3%;
+#normfooter{
+    margin: 1%;
 }
 
 .location {
