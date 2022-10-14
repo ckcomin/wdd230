@@ -191,6 +191,7 @@ main p {
 	right: 20px;
     margin: 5%;
     font-family: 'Poppins', sans-serif;
+    opacity: .9;
 }
 
 .joinus:hover {

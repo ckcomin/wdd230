@@ -71,6 +71,7 @@
     main div {
         min-height: 150px;
 		border: 1px solid rgba(0,0,0,.3);
+		height: auto;
     }
     
 	p {
@@ -103,11 +104,11 @@
     }
 
 	#hero {
-		margin-bottom: 2%;
 		margin-right: 2%;
 		margin-left: 2%;
         grid-row: 1/3;
         grid-column: 2/3;
+		margin-bottom: 2%;
     }
 
     #news {
@@ -115,7 +116,7 @@
 		margin-left: 2%;
         grid-row: 3/4;
         grid-column: 2/3;
-		margin-top: -15%;
+		margin-top: 0%;
     }
     
     #spotlights {
