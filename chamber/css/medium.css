@@ -1,12 +1,21 @@
 @media only screen and (min-width: 39.5em) {
     header {
-        display: flex;
-        flex-wrap: wrap;
+        grid-template-rows: 1fr 2fr 1fr;
         align-items: center;
+    }
+
+    header p:nth-child(1){
+        font-size: 18pt;
+    }
+
+    .logo {
+        grid-row: 2/3;
+        grid-column: 1/3;
     }
 
     .headwords {
         margin-left: 0;
+        margin-top: -5%;
 
     }
 
@@ -20,14 +29,17 @@
     }
 
     .logo img {
-        width: 150px;
-        margin-bottom: 0;
+        width: 190px;
+        margin-bottom: -15%;
+        margin-top: -15%;
 
     }
 
     .social {
         padding-top: 0;
         padding-left: 20%;
+        grid-column: 3/4;
+        grid-row: 2/3;
     }
 
     .social svg {
@@ -39,17 +51,20 @@
     }
 
     nav {
-        padding-top: 0;
-        width: fit-content;
-        padding-left: 0;
-        flex-grow: 3;
+        grid-column: 1/4;
+        width: 100%;
+        float: left;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+        grid-row: 3/4;
     }
 
     nav ul#priNav{
         display: flex;
         border-left: 1px solid rgba(0,0,0,.3);
         position: relative;
-        padding-left: 25%;
+        padding-left: 18%;
     }
 
     nav ul li a {
@@ -66,7 +81,6 @@
     main div {
         border-top: 8px white solid;
         min-height: 150px;
-        
     }
     
     p {

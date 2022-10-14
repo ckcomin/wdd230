@@ -2,32 +2,37 @@
 	header{
 		margin: 0;
 	}
+
+	header p:nth-child(1){
+		font-size: 20pt;
+	}
+
 	.headwords{
 		margin: 0;
-		margin-top: -20%;
+		margin-top: -17%;
 	}
 
 	.logo img {
 		width: 300px;
 		margin: 0;
-		margin-top: -20%;
+		margin-top: -25%;
+		margin-bottom: -10%;
 	}
 
 	.headwords h1 {
 		font-size: 50pt;
-		grid-column: 2/3;
 	}
 
 	.headwords h2 {
 		letter-spacing: 1.5pt;
-		font-size: 20pt;
-		margin-bottom: 0;
+		font-size: 25pt;
+		margin-bottom: -10%;
 		letter-spacing: 2pt;
 	}
 	.social {
 		margin: 0;
 		padding-left: 25%;
-		margin-top: -5%;
+		margin-top: -30%;
 	}
 
 	.social svg {
@@ -37,15 +42,23 @@
 	nav{
 		margin: 0;
 		margin-top: -8%;
+		margin-bottom: -2%;
 	}
 
 	nav ul#priNav {
 		padding-left: 30%;
+		font-size: 15pt;
 	}
 
 	#datediv {
-		margin-top: -2%;
 		text-align: center;
+		margin-top: -2%;
+		height: 40px;
+	}
+
+	#currentdate {
+		font-size: 18pt;
+		padding-top: 5%;
 	}
 
 	main {
@@ -61,7 +74,7 @@
 		border: 1px solid rgba(0,0,0,.3);
     }
     
-    p {
+	p {
         margin: 5%;
     }
 

@@ -18,3 +18,14 @@ function toggleMenu() {
 const x = document.getElementById("hamBtn")
 x.onclick = toggleMenu;
 
+// banner
+
+if (today.getDay() == 1){
+   const pthing = document.querySelector("header p")
+   pthing.style.display='block'
+}
+
+if (today.getDay() == 2){
+    const pthing = document.querySelector("header p")
+    pthing.style.display='block'
+ }
