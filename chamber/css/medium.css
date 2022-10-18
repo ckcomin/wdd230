@@ -1,12 +1,14 @@
 @media only screen and (min-width: 39.5em) {
     header {
-        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 2fr;
         align-items: center;
     }
 
     header p:nth-child(1){
         font-size: 15pt;
 		margin-left: 0;
+        width: 100%;
+        grid-column: 1/5;
     }
 
     .logo {
@@ -47,30 +49,16 @@
         width: 45px;
     }
 
-    nav button {
-        display: none;
+    nav button{
+        margin: .2rem 5vw;
     }
 
-    nav {
-        grid-column: 1/4;
-        width: 100%;
-        float: left;
-        padding: 0;
-        width: 100%;
-        margin: 0 auto;
-        grid-row: 3/4;
-    }
-
-    nav ul#priNav{
-        display: flex;
-        border-left: 1px solid rgba(0,0,0,.3);
-        position: relative;
-        padding-left: 18%;
+    nav{
+        padding-left: 0;
     }
 
     nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0,0,0,.3);
+        
     }
 
     main {
@@ -117,6 +105,7 @@
         border: 1px solid rgba(0,0,0,.3);
         margin: 5%;
         margin-left: 1%;
+        height: auto;
     }
 
     #join {

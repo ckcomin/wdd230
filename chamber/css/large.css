@@ -1,6 +1,7 @@
 @media only screen and (min-width: 64rem) {
 	header{
 		margin: 0;
+		grid-template-rows: 1fr 2fr 1fr;
 	}
 
 	.headwords{
@@ -35,13 +36,30 @@
 		width: 60px;
 	}
 
+	nav button {
+        display: none;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,.3);
+    }
+
 	nav{
-		margin: 0;
+		grid-column: 1/4;
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 0 auto;
+        grid-row: 3/4;
 		margin-top: -8%;
 		margin-bottom: -2%;
 	}
 
 	nav ul#priNav {
+		display: flex;
+        border-left: 1px solid rgba(0,0,0,.3);
+        position: relative;
 		padding-left: 30%;
 		font-size: 15pt;
 	}
