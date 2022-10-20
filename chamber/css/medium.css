@@ -1,6 +1,7 @@
 @media only screen and (min-width: 39.5em) {
     header {
-        grid-template-rows: 1fr 2fr;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr;
         align-items: center;
     }
 
@@ -12,14 +13,14 @@
     }
 
     .logo {
-        grid-row: 2/3;
-        grid-column: 1/3;
+        grid-column: 2/3;
+        margin-left: -25%;
+        margin-bottom: 0;
     }
 
     .headwords {
-        margin-left: 0;
-        margin-top: -5%;
-
+        margin-top: 0;
+        margin-left: 3%;
     }
 
     .headwords h1 {
@@ -28,33 +29,32 @@
     }
     
     .headwords h2 {
-        font-size: 18pt;
+        font-size: 14pt;
     }
 
-    .logo img {
-        width: 190px;
-        margin-bottom: -15%;
-        margin-top: -15%;
-
+    .logo picture {
+        margin-bottom: 0;
+        margin-top: 0;
     }
 
     .social {
         padding-top: 0;
-        padding-left: 20%;
         grid-column: 3/4;
         grid-row: 2/3;
+        padding-left: 0;
+        margin-left: 25%;
+        grid-column: 3/4;
+        margin-bottom: 0%;
     }
 
     .social svg {
-        width: 45px;
+        width: 40px;
     }
 
-    nav button{
-        margin: .2rem 5vw;
-    }
 
     nav{
         padding-left: 0;
+        margin-bottom: 10%;
     }
 
 
@@ -86,7 +86,6 @@
         grid-column: 1/3;
         display: grid;
         grid-template-columns: 1fr 1fr;
-
     }
     
     #spotlight1 {
@@ -126,6 +125,7 @@
 
     #degree {
         min-height: 0;
+        margin-left: 25%;
     }
 
     footer {
@@ -144,28 +144,26 @@
 	}
 
 	#footLogo img {
-		margin-top: -10%;
-		width: 180px;
-		padding-left: 5%;
+        margin-top: 3%;
 	}
 
 	#location {
 		margin-left: -10%;
-		margin-top: 5%;
+		margin-top: 0;
 		text-align: left;
 		font-size: 10pt;
 	}
 
 	#location p{
-		margin-top: -3%;
+		margin-top: -5%;
 		margin-left: -.01%;
 	}
 
 	#contact{
-		margin-top: 3%;
+		margin-top: 0;
 		padding-right: 5%;
 		font-size: 10pt;
-      
+        margin-bottom: 6%;
 	}
 
 	#normfooter{

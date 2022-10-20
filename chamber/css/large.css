@@ -1,19 +1,29 @@
 @media only screen and (min-width: 64rem) {
 	header{
 		margin: 0;
-		grid-template-rows: 1fr 2fr 1fr;
+		grid-template-rows: 1fr;
+	}
+
+	header p:nth-child(1){
+		margin-top: .5%;
 	}
 
 	.headwords{
 		margin: 0;
-		margin-top: -17%;
+		margin-top: -7%;
 	}
+	
+	.logo {
+        grid-column: 1/3;
+        margin-left: 0%;
+        margin-bottom: 0;
+    }  
 
-	.logo img {
-		width: 300px;
-		margin: 0;
-		margin-top: -25%;
-		margin-bottom: -10%;
+	.logo picture {
+		margin-top: 2%;
+		grid-row: 2/3;
+		margin-right: 2%;
+		margin-left: 2%;
 	}
 
 	.headwords h1 {
@@ -28,8 +38,7 @@
 	}
 	.social {
 		margin: 0;
-		padding-left: 25%;
-		margin-top: -30%;
+		grid-row: 2/3;
 	}
 
 	.social svg {
@@ -52,8 +61,8 @@
         padding: 0;
         margin: 0 auto;
         grid-row: 3/4;
-		margin-top: -8%;
-		margin-bottom: -2%;
+		margin-top: 2%;
+		margin-bottom: 2%;
 	}
 
 	nav ul#priNav {
@@ -66,7 +75,6 @@
 
 	#datediv {
 		text-align: center;
-		margin-top: -2%;
 		height: 40px;
 	}
 
@@ -126,6 +134,7 @@
 	#degree{
 		border: 0;
 		min-height: 0;
+		margin-left: 30%;
 	}
 
 	#join {
@@ -210,15 +219,13 @@
 		grid-template-columns: 1fr 1fr;
 	}
 
-	#footLogo img {
-		margin-top: -10%;
-		width: 300px;
-		padding-left: 28%;
+	#footLogo picture {
+		
 	}
 
 	#location {
 		margin-left: 5%;
-		margin-top: 10%;
+		margin-top: -2%;
 		text-align: left;
 		font-size: 15pt;
 	}
@@ -229,9 +236,10 @@
 	}
 
 	#contact{
-		margin-top: 10%;
+		margin-top: 0;
 		padding-right: 40%;
 		font-size: 15pt;
+		padding-bottom: 3%;
 	}
 
 	.location {
