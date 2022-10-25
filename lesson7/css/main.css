@@ -9,3 +9,14 @@ main{
     grid-template-columns: 1fr;
     align-items: center;
 }
+
+picture img{
+    display: block;
+    box-shadow: 5px 5px 5px 5px black;
+    filter: blur(0.0em);
+    transition: filter 1s;
+}
+
+picture img[data-src]{
+    filter: blur(0.1em);
+}

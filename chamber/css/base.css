@@ -255,6 +255,12 @@ footer {
     margin: 1%;
 }
 
-.location {
+#pin {
     width: 3%;
 }
+
+#map{
+    text-decoration: none;
+    color: white;
+}
+

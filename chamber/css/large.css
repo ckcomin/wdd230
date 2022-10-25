@@ -219,10 +219,6 @@
 		grid-template-columns: 1fr 1fr;
 	}
 
-	#footLogo picture {
-		
-	}
-
 	#location {
 		margin-left: 5%;
 		margin-top: -2%;
@@ -240,10 +236,7 @@
 		padding-right: 40%;
 		font-size: 15pt;
 		padding-bottom: 3%;
-	}
-
-	.location {
-		width: 5%;
+		
 	}
 
 	#normfooter{
