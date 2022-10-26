@@ -134,13 +134,13 @@ nav ul li.highlight a {
     font-family: 'Poppins', sans-serif;
 }
 
-main {
+.homeMain {
     display: grid;
     text-align: center;
     align-items: center;
 }
 
-main div {
+.homeMain div {
     border-top: 8px white solid;
     background-color: #eee;
     height: fit-content; 

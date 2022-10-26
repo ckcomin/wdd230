@@ -58,12 +58,12 @@
     }
 
 
-    main {
+    .homeMain {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
     
-    main div {
+    .homeMain div {
         border-top: 8px white solid;
     }
     
