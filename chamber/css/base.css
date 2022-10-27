@@ -238,6 +238,19 @@ main h3 {
     display: none;
 }
 
+#visit-message {
+    background-color: #43a047;
+    width: 98%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14pt;
+    margin-left: -1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: 1fr;

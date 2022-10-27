@@ -29,14 +29,14 @@ if('IntersectionObserver' in window) {
 
 const visit = document.querySelector("#visit-message");
 
-let visitMessage = "This is your first visit";
+let visitMessage = "This is your first visit to this page";
 let currentDay = new Date();
 
 let lastVisitString = window.localStorage.getItem("last-visit");
 if (lastVisitString != null){
     let lastVisitDate = new Date(lastVisitString);
     let dataDifference = Math.floor((currentDay.getTime() - lastVisitDate.getTime()) / (24 * 60 * 1000));
-    visitMessage = `You last visited ${dataDifference} days ago.`;
+    visitMessage = `You last visited this page ${dataDifference} days ago.`;
 }
 
 visit.textContent = visitMessage;
