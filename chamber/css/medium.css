@@ -67,7 +67,7 @@
         border-top: 8px white solid;
     }
     
-    p {
+    .homeMain p {
         margin: 5%;
     }
 
@@ -128,6 +128,37 @@
         margin-left: 25%;
     }
 
+    .gallery {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+        align-items: center;
+	}
+
+	.gallery div p{
+		margin-bottom: 15%;
+        width: 85%;
+        margin-left: 4%;
+        padding: 2%;
+	}
+
+	.gallery div img{
+		width: 98%;
+	}
+
+    .galpics:hover {
+        filter: blur(4px);
+    }
+
+    #hikeDiv {
+        height: 89.5%;
+        margin-top: 2%;
+    }
+
+    #hikeDiv img {
+        margin-top: 35%;
+        margin-bottom: 22%;
+    }
+    
     footer {
 		display: grid;
 		grid-template-columns: 1fr;

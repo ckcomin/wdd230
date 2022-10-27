@@ -103,7 +103,7 @@
 		font-size: 14pt;
 	}
     
-	main p {
+	.homeMain p {
         margin: 5%;
 		font-size: 12pt;
     }
@@ -219,6 +219,26 @@
 		padding: 5%;
 		height: fit-content;
 	}
+
+	.gallery {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.gallery div picture{
+		width: 98%;
+	}
+
+    #hikeDiv {
+        height: 96.8%;
+        margin-top: 0;
+    }
+
+    #hikeDiv img {
+        margin-top: 0;
+		margin-bottom: 0;
+    }
+    
 
 	footer {
 		display: grid;

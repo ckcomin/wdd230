@@ -158,7 +158,7 @@ main h3 {
     font-size: 18pt;
 }
 
-main p {
+.homeMain p {
     font-size: 15pt;
 }
 
@@ -236,6 +236,24 @@ main p {
 
 #spotlight3 {
     display: none;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2%;
+}
+
+.gallery div img {
+    margin-top: 2%;
+    width: 100%;
+}
+
+.gallery div p{
+    background-color: #eee;
+    border: 1px solid rgba(0,0,0,.3);
+    width: 100%;
+    text-align: center;
 }
 
 footer {
