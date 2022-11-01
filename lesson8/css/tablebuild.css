@@ -1,0 +1,39 @@
+table {
+	margin: 10px auto;
+	border: thin solid hsl(0,0%,20%);
+	box-shadow: 0 0 30px hsl(0,0%,50%);
+	border-collapse: collapse;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+tr:first-child th, tfoot {
+	background-color: rgba(160, 168, 236, 0.799);
+	color: black;
+}
+
+tr:first-child th {
+    font-size: 18pt;
+}
+
+th {
+    font-size: 14pt;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid hsl(0,0%,33%);
+}
+
+th, .highlight {
+	background-color: rgba(96, 112, 232, 0.799);
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgb(203, 203, 205);
+}
+
+tfoot tr:nth-child(1){
+    font-size: 10pt;
+}
