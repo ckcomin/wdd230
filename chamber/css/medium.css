@@ -214,6 +214,18 @@
         width: 5%;
     }
 
+    form legend {
+        font-size: 16pt;
+    }
+
+    label{
+        font-size: 12pt;
+    }
+
+    .mysubmit {
+        font-size: 12pt;
+    }
+
     #benefits h2 {
         font-size: 16pt;
         text-align: justify;
