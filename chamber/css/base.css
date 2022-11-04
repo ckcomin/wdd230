@@ -323,6 +323,12 @@ label {
     font-size: 10pt;
 }
 
+#memhead {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+    margin-bottom: 0;
+}
+
 label.myinput {
     display: block;
     padding-top: 1rem;
