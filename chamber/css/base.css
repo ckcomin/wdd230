@@ -307,33 +307,71 @@ footer {
 
 form fieldset {
     margin: 2rem 5%;
-    border: 2px solid #6f74dd;
+    border: 2px solid #43a047;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18pt;
+    font-size: 14pt;
     margin: 0.1rem;
     padding: 0.5rem;
 }
 
-form label {
+label {
     font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+}
+
+label.myinput {
     display: block;
     padding-top: 1rem;
+    font-size: 10pt;
+    margin-bottom: 2%;
+}
+
+label.myinput input, label.myinput textarea {
+    padding: .5rem;
+    width: 20rem;
+    max-width: 20rem;
+}
+
+label.myradio {
+    display: block;
+}
+
+label.myradio input{
+    margin: 1rem;
+}
+
+.mysubmit {
+    background-color: #00227b;
+    color: white;
+    margin: 1rem 0 0 0;
+    padding: 1.5rem;
+}
+
+label.myinput input:required {
+    border-color: aqua;
+}
+
+#benefits {
+    margin: 2rem 5%;
 }
 
 #benefits h2 {
     font-size: 14pt;
+    text-align: center;
 }
 
 #benefits h3 {
     font-size: 12pt;
+    text-align: center;
 }
 
 #benefits li {
     font-family: 'Poppins', sans-serif;
     font-size: 10pt;
 }
+

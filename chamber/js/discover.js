@@ -19,13 +19,18 @@ if('IntersectionObserver' in window) {
                 observer.unobserve(item.target);
             }
         });
-    });
+    }, imgOptions);
 
     imagesToLoad.forEach((img) => {
         observer.observe(img); 
       });
 }
 
+else {
+    imagesToLoad.forEach((img) => {
+      loadImages(img);
+    });
+}
 
 const visit = document.querySelector("#visit-message");
 

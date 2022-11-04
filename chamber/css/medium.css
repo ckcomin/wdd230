@@ -213,4 +213,18 @@
     #pin {
         width: 5%;
     }
+
+    #benefits h2 {
+        font-size: 16pt;
+        text-align: justify;
+    }
+    
+    #benefits h3 {
+        font-size: 14pt;
+        text-align: justify;
+    }
+
+    #benefits li {
+        font-size: 12pt;
+    }
 }
