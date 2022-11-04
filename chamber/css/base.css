@@ -307,7 +307,7 @@ footer {
 
 form fieldset {
     margin: 2rem 5%;
-    border: 2px solid #43a047;
+    border: 1.5px solid #43a047;
     border-radius: 10px;
     padding: .5rem 2%;
 }
@@ -360,7 +360,14 @@ label.myradio input{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.mysubmit:hover {
+ul {
+    border: 1.5px solid #43a047;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+
+}
+
+.mysubmit:hover {   
     background-color: #6f74dd;
     color: black;
 }
