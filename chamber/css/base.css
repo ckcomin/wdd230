@@ -5,7 +5,7 @@ header {
     grid-template-rows: 1fr 4fr;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
-    height: 130px;
+    height: 100px;
 }
 
 header p:nth-child(1){
@@ -17,7 +17,7 @@ header p:nth-child(1){
     font-family: 'Poppins', sans-serif;
     margin-bottom: auto;
     margin-top: auto;
-    background-color: #3949ab;
+    background-color: #00227b;
     width: 100%;
 }
 
@@ -51,7 +51,7 @@ header p:nth-child(1){
 .social {
     padding-left: 35%;
     grid-row: 2/3;
-    margin-top: 25%;
+    margin-top: 15%;
 }
 
 .social svg {
@@ -65,7 +65,7 @@ nav button {
     font-size: 2rem;
     color: white;
     margin-left: 5%;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 nav {
