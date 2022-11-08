@@ -401,3 +401,8 @@ label.myinput input:required {
     text-align: center;
     margin: 10%;
 }
+
+section {
+    background-color: #00227b;
+    color: white;
+}
