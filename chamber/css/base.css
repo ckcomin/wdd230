@@ -402,7 +402,27 @@ label.myinput input:required {
     margin: 10%;
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid rgba(0,0,0,.3);
+    background-color: #eee;
+    padding: 2%;
+    margin-top: 5%;
+}
+
 section {
     background-color: #00227b;
     color: white;
+    margin: 2%;
+    border: 2px solid rgba(0,0,0,.5);
+    width: auto;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 4%;
+}
+
+.cards img {
+    width: 100%;
+    
 }

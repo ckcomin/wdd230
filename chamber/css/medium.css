@@ -243,4 +243,12 @@
     #benefits li {
         font-size: 12pt;
     }
+
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section {
+        padding: 2%;
+    }
 }
