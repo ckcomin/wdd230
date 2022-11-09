@@ -420,10 +420,14 @@ label.myinput input:required {
     text-align: center;
     align-items: center;
     padding-bottom: 4%;
+    display: grid;
+    grid-template-rows: 1fr
 }
 
 .cards img {
-    width: 95%;
-    height: auto;
-    
+    width: 50%;
+    grid-row:  1/2;
+    margin-top: 4%;
+    margin-left: 25%;
+    margin-bottom: -8%;
 }
