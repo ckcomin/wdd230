@@ -411,7 +411,7 @@ label.myinput input:required {
     margin-top: 5%;
 }
 
-section {
+.cards section {
     background-color: #00227b;
     color: white;
     margin: 2%;
@@ -423,6 +423,7 @@ section {
 }
 
 .cards img {
-    width: 100%;
+    width: 95%;
+    height: auto;
     
 }
