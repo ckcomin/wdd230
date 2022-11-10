@@ -444,6 +444,10 @@ label.myinput input:required {
     padding-bottom: 4%;
 }
 
+.cards section h3{
+    display: none;
+}
+
 .cards img {
     width: 50%;
     grid-row:  1/2;
@@ -460,11 +464,11 @@ label.myinput input:required {
 }
 
 /* TRANSFORM INTO GRID VIEW */
-#lgDemo.list img{ 
+#dirLayout.list img{ 
     display: none;
 }
 
-#lgDemo.list section {
+#dirLayout.list section {
     display: grid;
     grid-template-columns: 1fr;
     text-align: left;
@@ -476,11 +480,14 @@ label.myinput input:required {
     color: black;
 }
 
-#lgDemo.list section:nth-child(odd) {
+#dirLayout.list section:nth-child(odd) {
     background-color: #d4d5e7;
 }
 
-#lgDemo.list section p {
+#dirLayout.list section p {
     margin: 1%;
 }
 
+#dirLayout.list section h3 {
+    display: inline;
+}

@@ -265,17 +265,17 @@
     }
 
 
-    #lgDemo.list div{
+    #dirLayout.list div{
         grid-template-columns: 1fr;
     }
 
-    #lgDemo.list section {
+    #dirLayout.list section {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         font-size: 8pt;
         width: 96%;
     }
 
-    #lgDemo.list section a {
+    #dirLayout.list section a {
         display: inline;
     }
 }
