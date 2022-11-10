@@ -5,7 +5,7 @@
         "name": "Archery Close",
         "address": "25 S Main Street, Stowe, VT 05672",
         "phone": "(802) 242-0448",
-        "website": "https://archeryclose.com/"
+        "website": "https://archeryclose.com"
       },
       {
         
@@ -13,77 +13,77 @@
         "name": "Silver Ridge Design",
         "address": "37 Paus Ln, Morrisville, VT 05661",
         "phone": "(802) 888-2400",
-        "website": "http://www.silverridgedesign.com/"
+        "website": "http://www.silverridgedesign.com"
       },
       {
         "imageurl": "https://ckcomin.github.io/wdd230/images/pancake_logo.png",
         "name": "The Skinny Pancake",
         "address": "454 Mountain Road  Stowe, VT 05672",
         "phone": "(802) 760-6588",
-        "website": "https://skinnypancake.com/"
+        "website": "https://skinnypancake.com"
       },
       {
         "imageurl": "https://popmenucloud.com/cdn-cgi/image/width=300,height=300,format=auto,fit=scale-down/cvdzsnix/d3b8a8f9-e5b9-49c6-a304-014f61548f30.jpg",
         "name": "The Bagel",
         "address": "394 Mountain Rd, Stowe, VT 05672",
         "phone": "(802) 242-0448",
-        "website": "https://www.thebagelstowe.com/"
+        "website": "https://www.thebagelstowe.com"
       },
       {
         "imageurl": "https://littleriverhotglass.com/wp-content/uploads/2022/02/logo-white-trans-2.png",
         "name": "Little River Hotglass Studio",
         "address": "593 Moscow Road, Stowe, VT 05672",
         "phone": "(802) 253-0889",
-        "website": "https://littleriverhotglass.com/"
+        "website": "https://littleriverhotglass.com"
       },
       {
         "imageurl": "https://images.squarespace-cdn.com/content/v1/6220fd3155318740d0fae74a/8198c011-8e2e-4f2d-8805-c4ff6402c7f1/VDF_Valley+Dream+Farm+Transparent+Background.png?format=750w",
         "name": "Valley Dream Farm",
         "address": "5901 Pleasant Valley Rd, Cambridge, VT 05444",
         "phone": "(802) 644-6598",
-        "website": "https://www.valleydreamfarm.com/"
+        "website": "https://www.valleydreamfarm.com"
       },
       {
         "imageurl": "https://static.wixstatic.com/media/c945eb_a48e14e2cb47459a8ff9c1e40f0c1e30~mv2_d_1854_1521_s_2.png/v1/crop/x_10,y_0,w_1834,h_1521/fill/w_638,h_530,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c945eb_a48e14e2cb47459a8ff9c1e40f0c1e30~mv2_d_1854_1521_s_2.png",
         "name": "The Little River Inn",
         "address": "692 South Main Street 05672 Stowe  VT",
         "phone": "(802) 253-7787",
-        "website": "https://www.thelittleriverinn.com/"
+        "website": "https://www.thelittleriverinn.com"
       },
       {
         "imageurl": "https://d29a9j65e7tdx8.cloudfront.net/uploads/shop/storefront_logo/1113/65d21c6d-4578-4ee0-a2a3-621ce81bd431.png",
         "name": "BunyaBunya",
         "address": "1799 Mountain Rd, Stowe, VT 05672",
         "phone": "(802) 730-0933",
-        "website": "https://www.bunyabunya.com/"
+        "website": "https://www.bunyabunya.com"
       },
       {
         "imageurl": "https://ckcomin.github.io/wdd230/images/DocPond_logo.png",
         "name": "Doc Ponds",
         "address": "294 Mountain Rd, Stowe, VT 05672",
         "phone": "(802) 760-6066",
-        "website": "https://www.docponds.com/"
+        "website": "https://www.docponds.com"
       },
       {
         "imageurl": "https://static.wixstatic.com/media/d93c6f_2130b5e345b84a8dafadee2ec9399189.gif",
         "name": "The Bench",
         "address": "492 Mountain Rd, Stowe, VT 05672",
         "phone": "(802) 253-5100",
-        "website": "https://www.benchvt.com/"
+        "website": "https://www.benchvt.com"
       },
       {
         "imageurl": "https://ckcomin.github.io/wdd230/images/PKCoffeeLogo.png",
         "name": "PK Coffee",
         "address": "1940 Mountain Rd, Stowe, VT 05672",
         "phone": "(802) 585-7711",
-        "website": "https://www.pkcoffee.com/"
+        "website": "https://www.pkcoffee.com"
       },
       {
         "imageurl": "https://www.laughingmoonchocolates.com/uploads/b/2eb5f79be98bef12db73826dddfbfe34cacdfb0bc0a42926d86a90b076becddf/LogoBrownMoonOutlines.jpg(1)%20copy_1590530544.png?width=400",
         "name": "Laughing Moon Chocolates",
         "address": "78 S Main St, Stowe, VT 05672",
         "phone": "(802) 253-9591",
-        "website": "https://www.laughingmoonchocolates.com/"
+        "website": "https://www.laughingmoonchocolates.com"
       }
     ]
   }

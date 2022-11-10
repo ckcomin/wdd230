@@ -244,12 +244,38 @@
         font-size: 12pt;
     }
 
+    #lgSwitches {
+        margin-left: 40%;
+    }
+
     .cards {
+        display: grid;
         grid-template-columns: 1fr 1fr;
+        
     }
 
     .cards section {
         padding: 2%;
+        width: 90%;
         
+    }
+
+    .cards a {
+        font-size: 8pt;
+    }
+
+
+    #lgDemo.list div{
+        grid-template-columns: 1fr;
+    }
+
+    #lgDemo.list section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        font-size: 8pt;
+        
+    }
+
+    #lgDemo.list section a {
+        display: inline;
     }
 }

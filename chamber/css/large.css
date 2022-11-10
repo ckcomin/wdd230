@@ -249,6 +249,10 @@
 		margin-bottom: 0;
     }
     
+	#lgSwitches {
+        margin-left: 43%;
+    }
+
 	.cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -258,6 +262,15 @@
         
         width: 50%;
     }
+
+	#lgDemo.list section {
+		font-size: 12pt;
+	}
+
+	.cards a {
+        font-size: 12pt;
+    }
+
 
 
 	footer {
