@@ -258,9 +258,8 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-	.cards img {
-        
-        width: 50%;
+	.cards img { 
+        width: 40%;
     }
 
 	#dirLayout.list section {
