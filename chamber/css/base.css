@@ -30,6 +30,7 @@ header p:nth-child(1){
 
 .logo picture {
     margin-top: 0%;
+    aspect-ratio: auto 150 / 84;
 }
 
 .headwords {
