@@ -1,7 +1,7 @@
 {
     "companies": [
       {
-        "imageurl": "https://cdn.shopify.com/s/files/1/0577/0176/1180/files/small_logo_320x.png?v=1627404362",
+        "imageurl": "https://ckcomin.github.io/wdd230/images/archery.png",
         "name": "Archery Close",
         "address": "25 S Main Street, Stowe, VT 05672",
         "phone": "(802) 242-0448",
@@ -78,7 +78,7 @@
         "website": "https://www.coffeehouse.com"
       },
       {
-        "imageurl": "https://www.laughingmoonchocolates.com/uploads/b/2eb5f79be98bef12db73826dddfbfe34cacdfb0bc0a42926d86a90b076becddf/LogoBrownMoonOutlines.jpg(1)%20copy_1590530544.png?width=400",
+        "imageurl": "https://ckcomin.github.io/wdd230/images/LogoBrownMoon.webp",
         "name": "Laughing Moon Chocolates",
         "address": "78 S Main St, Stowe, VT 05672",
         "phone": "(802) 253-9591",
