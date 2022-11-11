@@ -435,10 +435,10 @@ label.myinput input:required {
 }
 
 .cards section {
-    background-color: #00227b;
+    background-color: #3949ab;
     color: white;
     margin: 2%;
-    border: 2px solid rgba(0,0,0,.5);
+    border: 2px solid #43a047;
     text-align: center;
     align-items: center;
     display: flex;

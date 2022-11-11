@@ -275,6 +275,15 @@
         width: 96%;
     }
 
+    #dirLayout.list section h3 {
+        margin-right: 5%;
+    }
+    
+    #dirLayout.list section p {
+        margin-right: 5%;
+        margin-left: 2%;
+    }
+
     #dirLayout.list section a {
         display: inline;
     }
