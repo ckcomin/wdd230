@@ -457,10 +457,11 @@ label.myinput input:required {
     grid-row:  1/2;
     margin-top: 4%;
     margin-bottom: 8%;
-    aspect-ratio: auto 265 / 149;
 }
 
-
+img {
+    aspect-ratio: auto 265 / 149;
+}
 
 .dirMain p:nth-child(1) {
     background-color: aqua;
