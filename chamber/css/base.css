@@ -210,7 +210,7 @@ p {
     border-top: 0;
     align-items: center;
     display: flex;
-    margin-left: 37%;
+    margin-left: 24%;
     width: fit-content;
 }
 
@@ -303,10 +303,10 @@ footer {
 
 #joinMain {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
-form fieldset {
+#joinMain form fieldset {
     margin: 2rem 5%;
     border: 1.5px solid #43a047;
     border-radius: 10px;
@@ -319,7 +319,7 @@ form legend {
     padding: 0.5rem;
 }
 
-label {
+label, :placeholder-shown{
     font-family: 'Poppins', sans-serif;
     font-size: 10pt;
 }
@@ -336,17 +336,18 @@ label.myinput {
     margin-bottom: 2%;
 }
 
-label.myinput input, label.myinput textarea {
+#joinMain label.myinput input, #joinMain label.myinput textarea {
     padding: .5rem;
     width: 10rem;
     max-width: 10rem;
 }
 
-label.myradio {
+#joinMain label.myradio {
     display: block;
+    margin-bottom: 44px;
 }
 
-label.myradio input{
+#joinMain label.myradio input{
     margin: 0.5rem;
 }
 
@@ -360,8 +361,6 @@ label.myradio input{
     border-radius: 5px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-
-
 
 .mysubmit:hover {   
     background-color: #6f74dd;
@@ -499,4 +498,43 @@ img {
 
 #dirLayout.list section h3 {
     display: inline;
+}
+
+#conMain form {
+    margin: 2rem 2%;
+}
+
+#conMain .mysubmit {
+    background-color: #43a047;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#conMain .mysubmit:hover {
+    background-color: #00701a;
+    color: white;
+}
+
+#staff {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+#staff div {
+    margin-bottom: 10%;
+}
+
+#cheif {
+    margin-top: 15%;
+}
+
+#staff img {
+    width: 30%;
+}
+
+#staff a {
+    text-decoration: none;
+    color: #00701a;
 }

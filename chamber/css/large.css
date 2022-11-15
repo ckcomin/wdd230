@@ -135,14 +135,14 @@
 	#degree{
 		border: 0;
 		min-height: 0;
-		margin-left: 30%;
+		margin-left: 12%;
 	}
 
 	#join {
         display: inline;
         grid-row: 3/4;
         grid-column: 1/2;
-		height: 302px;
+		height: 352px;
     }
 
 	#join h2 {
@@ -180,7 +180,7 @@
         grid-row: 3/4;
         grid-column: 2/3;
 		margin-top: 0%;
-		height: 302px;
+		height: 352px;
     }
 
 	#news h2 {
@@ -192,7 +192,7 @@
         grid-column: 3/4;
         display: grid;
         grid-template-columns: 1fr;
-		height: 1010px;
+		height: 1060px;
 	}
 
 	#spotlight1 {
@@ -270,6 +270,15 @@
         font-size: 12pt;
     }
 
+	#joinMain {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	label.myinput {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 
 
 	footer {
@@ -312,5 +321,17 @@
 		padding-top: 2%;
 	}
 
+	#staff div h3 {
+		font-size: 20pt;
+	}
+
+	#conMain section{
+		margin-top: 10%;
+	}
+
+	#conMain .mysubmit{
+		padding-left: 2%;
+		padding-right: 2%;
+	}
 
 }

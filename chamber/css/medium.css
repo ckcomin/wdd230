@@ -127,7 +127,8 @@
 
     #degree {
         min-height: 0;
-        margin-left: 25%;
+        margin-left: -12%;
+        background-color: transparent;
     }
 
     #visit-message {
@@ -218,7 +219,7 @@
         font-size: 16pt;
     }
 
-    label{
+    label {
         font-size: 12pt;
     }
 
@@ -287,4 +288,17 @@
     #dirLayout.list section a {
         display: inline;
     }
+
+    #staff {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* height: 1600px; */
+    }
+
+
+
+    #cheif {
+        grid-row: 1/2;
+        grid-column: 1/3;
+    } 
 }

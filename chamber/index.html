@@ -52,7 +52,7 @@
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="directory.html">Directory</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -75,12 +75,13 @@
             <div id="weather">
                 <h2>Weather</h2>
                 <div id="degree">
-                    <img src="images/sun.png" alt="Sunny weather symbol">
-                    <h3><span id="temp"></span>&deg;F</h3> 
+                    <!-- <img src="images/sun.png" alt="Sunny weather symbol"> -->
+                    <figure><img src="" alt="" id="weathericon" /></figure>
+                    <h3><span id="current-temp"></span>&deg;F</h3> 
                 </div>
-                <h3>Sunny</h3>
+                <h3><figcaption></figcaption></h3>
                 <hr>
-                <p>Wind Speed: <span id="speed"></span>mph</p>
+                <p>Wind Speed: <span id="speed" type="number"></span>mph</p>
                 <p>Wind Chill: <span id="chill"></span></p>
             </div>
             <div id="news">
@@ -151,6 +152,10 @@
         </footer>
     </div>
     <script src="js/main.js"></script>
+    
+    <script src="js/weatherapi.js"></script>
+
     <script src="js/windchill.js"></script>
 </body>
+
 </html>
