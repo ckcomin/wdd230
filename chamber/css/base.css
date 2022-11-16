@@ -216,6 +216,7 @@ p {
 
 #weather img {
     border-top: 0;
+    width: 150%;
 }
 
 #join {
@@ -331,12 +332,15 @@ label, :placeholder-shown{
 }
 
 label.myinput {
-    display: block;
     padding-top: 1rem;
     margin-bottom: 2%;
+    display: grid;
+	grid-template-columns: 1fr;
 }
 
-#joinMain label.myinput input, #joinMain label.myinput textarea {
+
+
+label.myinput input, #joinMain label.myinput textarea {
     padding: .5rem;
     width: 10rem;
     max-width: 10rem;
@@ -344,7 +348,7 @@ label.myinput {
 
 #joinMain label.myradio {
     display: block;
-    margin-bottom: 44px;
+    margin-bottom: 15px;
 }
 
 #joinMain label.myradio input{
@@ -537,4 +541,8 @@ img {
 #staff a {
     text-decoration: none;
     color: #00701a;
+}
+
+#conMain label.myinput textarea {
+    max-width: 25rem;
 }
