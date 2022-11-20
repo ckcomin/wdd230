@@ -291,6 +291,13 @@
 		grid-template-columns: 2fr 1fr;
 	} 
 
+	#cheif {
+		width: 70%;
+		margin-right: 16%;
+		margin-left: 16%;
+		
+	}
+
 	#footLogo {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
