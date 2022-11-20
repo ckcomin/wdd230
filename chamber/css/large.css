@@ -160,18 +160,31 @@
     }
 
 	#hero h2 {
-		top: 160px;
-		margin: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top: 8%;
+		font-size: 30pt;
+		color: #00227b;
 	}
 
 	#hero img{
 		width: 100%;
 		height: auto;
-		margin-top: 25%;
+		margin-top: 35%;
 	}
 
 	.joinus {
-		bottom: 150px;
+		position: absolute;
+		font-size: 20px;
+		margin-bottom: 10%;
+		margin-left: 13%;
+		margin-right: 25%;
+		bottom: 0;
+		right: 0;
+		padding: 15px 50px;
 	}
 
     #news {

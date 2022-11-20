@@ -178,6 +178,10 @@ p {
 	top: 20px;
 	left: 20px;
     margin: 0;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    border: 2px solid #43a047;
 }
 
 
@@ -465,10 +469,6 @@ label.myinput input:required {
 
 img {
     aspect-ratio: auto 265 / 149;
-}
-
-.dirMain p:nth-child(1) {
-    background-color: aqua;
 }
 
 .cards a {

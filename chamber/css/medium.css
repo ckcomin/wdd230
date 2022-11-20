@@ -78,6 +78,10 @@
         grid-column: 1/3;
     }
 
+    #hero h2 {
+        font-size: 25pt;
+    }
+
     #news {
         grid-row: 2/3;
         grid-column: 1/3;
