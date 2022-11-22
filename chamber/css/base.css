@@ -178,7 +178,7 @@ p {
 	top: 20px;
 	left: 20px;
     margin: 0;
-    color: white;
+    color: #00227b;
     border-radius: 5px;
     padding: 8px;
     border: 2px solid #43a047;
@@ -300,6 +300,7 @@ footer {
 #pin {
     width: 3%;
 }
+
 
 #map{
     text-decoration: none;
@@ -527,11 +528,11 @@ img {
 }
 
 #staff div {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 #cheif {
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 #staff img {

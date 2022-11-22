@@ -165,7 +165,7 @@
 		left: 0;
 		margin-left: 20%;
 		margin-right: 20%;
-		margin-top: 8%;
+		margin-top: 5%;
 		font-size: 30pt;
 		color: #00227b;
 	}
@@ -173,18 +173,13 @@
 	#hero img{
 		width: 100%;
 		height: auto;
-		margin-top: 35%;
+		margin-top: 30%;
 	}
 
 	.joinus {
-		position: absolute;
-		font-size: 20px;
-		margin-bottom: 10%;
-		margin-left: 13%;
-		margin-right: 25%;
-		bottom: 0;
-		right: 0;
-		padding: 15px 50px;
+		bottom: -20px;
+		right: 110px;
+		left: 110px;
 	}
 
     #news {
