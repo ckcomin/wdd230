@@ -312,7 +312,7 @@ footer {
     grid-template-columns: 1fr;
 }
 
-#joinMain form fieldset {
+fieldset {
     margin: 2rem 5%;
     border: 1.5px solid #43a047;
     border-radius: 10px;
