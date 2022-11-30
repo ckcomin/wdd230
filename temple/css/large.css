@@ -33,13 +33,45 @@
         padding-left: 35%;
     }
 
-    .social{
+    #socials .social{
         margin-right: 1%;
         margin-left: 1%;
+        width: 40%;
     }
 
     .reserve {
         font-size: 20pt;
         padding: 15px 30px;
+    }
+
+    #homeLarge{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #weather{
+        grid-column: 2/3;
+    }
+
+    #follow{
+        margin-top: -50%;
+        grid-column: 1/2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #follow h1{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #media{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #follow .social{
+        width: 25%;
     }
 }

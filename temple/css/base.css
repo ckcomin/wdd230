@@ -3,6 +3,14 @@ header{
     background-color: #DFECD5;
 }
 
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Karla', sans-serif; 
+}
+
 #logo {
     margin-left: 2%;
     width: 30%;
@@ -75,6 +83,32 @@ nav ul li.highlight a {
     color: #889eae;
     /* background-color: #889eae; */
 }
+
+footer {
+    margin-top: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #DFECD5;
+    color: black;
+    text-align: center;
+    font-family: 'Karla', sans-serif; 
+    height: 100%;
+}
+
+#socials .social{
+    margin-top: 2%;
+    width: 5%;
+}
+
+#pin {
+    width: 4%;
+}
+
+#map{
+    text-decoration: none;
+    color: black;
+}
+
 .landing{
     position: relative;
 
@@ -82,7 +116,7 @@ nav ul li.highlight a {
 
 .mySlides{
     width: 100%;
-    height: auto;
+    height: 100%;
     animation-name: fade;
     animation-duration: 3.5s;
 
@@ -136,29 +170,76 @@ nav ul li.highlight a {
     background-color: #b8cfe0;
     color: black;
 }
-  
 
-footer {
-    margin-top: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background-color: #DFECD5;
-    color: black;
+#tempSum{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 8%;
+    background-color: #b8cfe0;
+}
+
+#tempSum img {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#tempSum h2, #tempSum p{
     text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#contact{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 8%;
+    background-color: #b8cfe0;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+#contact img{
+    grid-row: 1/2;
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contact h2{
+    text-align: center;
+    
+}
+
+#contact ul{
+    margin-left: 5%;
     font-family: 'Karla', sans-serif; 
-    height: 100%;
 }
 
-.social{
-    margin-top: 2%;
-    width: 5%;
+#weather{
+    text-align: center;
+    border: 2px solid #b8cfe0;
+    margin-top: 8%;
+
 }
 
-#pin {
-    width: 4%;
+#follow{
+    margin-top: 8%;
+    text-align: center;
 }
 
-#map{
-    text-decoration: none;
-    color: black;
+#follow .social{
+    width: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
+
+#media{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+

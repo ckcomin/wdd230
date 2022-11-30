@@ -27,7 +27,14 @@
         margin-bottom: 5%;
     }
 
+    #location{
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
     #footcontact{
+        display: block;
         margin-top: auto;
         margin-bottom: auto;
     }
@@ -38,9 +45,61 @@
         display: grid;
     }
 
-    .social{
-        width: 15%;
+    #socials .social{
+        width: 20%;
         margin-right: auto;
         margin-left: auto;
     }
+
+    #tempSum{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    #tempSum picture{
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 98%;
+    }
+
+    #tempSum div{
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #tempSum p{
+
+        text-align: left;
+    }
+    
+    #contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #contact img{
+        grid-column: 2/3;
+    }
+
+    #contact div {
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #weather{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    #follow .social{
+        width: 13%;
+    }
+    
+
+
+
 }

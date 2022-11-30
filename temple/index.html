@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Homepage</title>
 </head>
 <body>
@@ -27,10 +30,26 @@
     <main>
         <section class="landing">
             <div id="slides">
-                <img class="mySlides" src="images/star-valley-temple.jpg">
-                <img class="mySlides" src="images/meridian-idaho.jpg">
-                <img class="mySlides" src="images/oakland-Temple.jpg">
-                <img class="mySlides" src="images/Boise-Idaho-Temple.jpg">
+                <picture >
+                    <source media="(min-width: 64rem)" srcset="images/star-valley-temple.jpg">
+                    <source media="( min-width: 39.5em)" srcset="images/star-valley-med.jpg">
+                    <img class="mySlides" src="images/star-valley-sm.jpg" alt="Star Valley Wyoming temple">
+                </picture>
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/meridian-idaho.jpg">
+                    <source media="( min-width: 39.5em)" srcset="images/meridian-idaho-med.jpg">
+                    <img class="mySlides" src="images/meridian-idaho-sm.jpg" alt="meridian idaho temple">
+                </picture>
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/oakland-Temple.jpg">
+                    <source media="( min-width: 39.5em)" srcset="images/oakland-Temple-med.jpg">
+                    <img class="mySlides" src="images/oakland-Temple-sm.jpg" alt="Oakland California temple">
+                </picture>
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/Boise-Idaho-Temple.jpg">
+                    <source media="( min-width: 39.5em)" srcset="images/Boise-Idaho-med.jpg">
+                    <img class="mySlides" src="images/Boise-Idaho-sm.jpg" alt="Boise idaho temple">
+                </picture>                
             </div>
             <button class="arrow" id="left" onclick="plusDivs(-1)">&#10094;</button>
             <button class="arrow" id="right" onclick="plusDivs(+1)">&#10095;</button>
@@ -38,11 +57,54 @@
                 <a class='reserve' href="reservation.html">Reserve</a>
             </div>
         </section>
+        <section id="tempSum">
+            <picture>
+                <source media="(min-width: 64rem)" srcset="images/meridian-home-sm.jpg">
+                <source media="( min-width: 39.5em)" srcset="images/meridian-home-med.jpg">
+                <img src="images/meridian-home-sm.jpg" alt="meridian idaho temple">
+            </picture>    
+            <div>
+                <h2>Meridian, Idaho</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <div>
+                <h2>Contact Us!</h2>
+                <ul>
+                    <li>Phone: +(343) 234-4503</li>
+                    <li>Email: info@templeinn.com</li>
+                    <li>Office: 4800 Montgomery Ln #300, Bethesda, MD 20814</li>
+                </ul>
+            </div>
+            <img src="images/staff.jpg" alt="Staff image">
+        </section>
+        <div id="homeLarge">
+            <section id="weather">
+                <h2>Weather</h2>
+                <h3>Bethesda</h3>
+                <div id="degree">
+                    <!-- <img src="images/sun.png" alt="Sunny weather symbol"> -->
+                    <figure><img src="" alt="" id="weathericon" /></figure>
+                    <h3><span id="current-temp"></span>&deg;F</h3> 
+                </div>
+                <p id="weatherdesc"></p>
+                <!-- <hr> -->
+                <p>Humidity: <span id="humid" type="number"></span>%</p>
+            </section>
+            <section id="follow">
+                <h1>Follow Us!</h1>
+                <div id="media">
+                    <a target="_blank" href="https://www.instagram.com/"><img class="social" src="images/instaSocial.png" alt="insagram logo"></a>
+                    <a target="_blank" href="https://www.facebook.com/"><img class="social" src="images/faceSocial.png" alt="facebook logo"></a>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <section id="socials">
-            <img class="social" src="images/instaSocial.png" alt="insagram logo">
-            <img class="social" src="images/faceSocial.png" alt="facebook logo">
+            <a target="_blank" href="https://www.instagram.com/"><img class="social" src="images/instaSocial.png" alt="insagram logo"></a>
+            <a target="_blank" href="https://www.facebook.com/"><img class="social" src="images/faceSocial.png" alt="facebook logo"></a>
         </section>
         <section id="location">
             <p>4800 Montgomery Ln #300</p>
@@ -55,5 +117,6 @@
         </section>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
