@@ -17,18 +17,24 @@ function displayCompanies(company) {
     let p = document.createElement('p');   
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
+    let p4 = document.createElement('p');
+    let p5 = document.createElement('p');
 
     // Change the textContent property of the h2 element to contain the company's full name
     h3.textContent = company.name;
     p.textContent = company.address;
     p2.textContent = company.phone;
     p3.textContent = company.services;
+    p4.textContent = company.history;
+    p5.textContent = company.closure;
 
     // Add/append the section(card) with the h2 element
     card.appendChild(h3);
     card.appendChild(p);
     card.appendChild(p2);
     card.appendChild(p3);
+    card.appendChild(p4);
+    card.appendChild(p5);
 
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card); 
