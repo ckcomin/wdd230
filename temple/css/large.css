@@ -28,6 +28,20 @@
         background-color: transparent;
 	}
 
+    .subnav-content {
+        position: absolute;
+        left: 0;
+        width: auto;
+        left: auto;
+        text-align: left;
+    }
+
+    .subnav-content a {
+        color: black;
+        text-decoration: none;
+        width: auto;
+    }
+
     #socials{
         display: flex;
         padding-left: 35%;

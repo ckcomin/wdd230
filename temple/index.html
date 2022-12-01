@@ -20,10 +20,16 @@
         <nav>
             <button id="hamBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="priNav">
-                <li class="highlight"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="temple.html">Temples</a></li>
                 <li><a href="reservation.html">Reservation</a></li>
-                <li><a href="services.html">Services</a></li>
+                <div class="subnav">
+                    <li class="highlight"><a class="subnavbtn" href="services.html">Services</a></li>
+                    <ul class="subnav-content">
+                      <li><a href="reception.html">Receptions</a></li>
+                      <li><a href="missionary.html">Missionaries</a></li>
+                    </ul>
+                </div>
             </ul>
         </nav>
     </header>
@@ -54,7 +60,7 @@
             <button class="arrow" id="left" onclick="plusDivs(-1)">&#10094;</button>
             <button class="arrow" id="right" onclick="plusDivs(+1)">&#10095;</button>
             <div class="reservebtn">
-                <a class='reserve' href="reservation.html">Reserve</a>
+                <a id='reserve' class='btn' href="reservation.html">Reserve</a>
             </div>
         </section>
         <section id="tempSum">

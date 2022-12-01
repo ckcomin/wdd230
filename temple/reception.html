@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name= "description" content="Temple Inn & Suites reservation page">
+    <meta name= "description" content="Temple Inn & Suites Services page">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/normalize.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
-    <title>Reservation</title>
+    <title>Services</title>
 </head>
 <body>
     <header>
@@ -26,34 +27,29 @@
                 <div class="subnav">
                     <li class="highlight"><a class="subnavbtn" href="services.html">Services</a></li>
                     <ul class="subnav-content">
-                      <li><a href="reception.html">Receptions</a></li>
+                      <li class="highlight"><a href="reception.html">Receptions</a></li>
                       <li><a href="missionary.html">Missionaries</a></li>
                     </ul>
                 </div>
             </ul>
         </nav>
     </header>
-    <main id="mainRe">
-        <section>
-            <form method="get" action="thankyou.html">
-                <h2>Make a Reservation</h2>
-                <label class="myinput"> First Name* <input type="text" name="fname" required></label>
-                <label class="myinput"> Last Name* <input type="text" name="lname" required></label>
-                <label class="myinput"> Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
-                <label class="myinput"> Phone* <input type="tel" name="tel" maxlength="10" required></label>
-                <label class="myinput"> Home State/Country* <input type="text" name="state" required></label>
-                <label class="myinput">Hotel* 
-                    <select name="cars" id="cars" required>
-                        <option value="volvo">Boise</option>
-                        <option value="saab">Meridian</option>
-                        <option value="mercedes">Oakland</option>
-                        <option value="audi">Star Valley</option>
-                    </select>
-                </label>
-                <label class="myinput">Special accommodations/comments<textarea name="accommodations" cols="40" rows="1"></textarea></label>
-                <input id="todaydate" type="hidden" name="datetime" value=""> 
-                <input class="mysubmit" type="submit" value="Reserve!">
-            </form>
+    <main>
+        <section id="wedLand">
+            <div>
+                <img src="images/ring2.jpeg" alt="">
+            </div>
+            <div id="wedding">
+                <h2>Weddings</h2>
+                <p>Temple Inn & Suites helps make your wedding day magical. From thoughtful service to accommodating venues. Our staff makes sure this is a day to remember.</p>    
+            </div>
+        </section>
+        <section id="venues">
+            <h2>Venues</h2>
+            <p>Each Temple Inn & Suites comes with a custom decorated reception hall. Tables and chairs are provided as well as a floral service.</p>
+            <div class="locaBtn">
+                <a class='btn' href="temple.html">Locations</a>
+            </div>
         </section>
     </main>
     <footer>

@@ -99,6 +99,16 @@
         width: 13%;
     }
     
+    #wedding{
+        right: -5%;
+        width: 40%;
+        top: 40%;
+        background-color: rgba(184, 207, 224, .5);
+    }
+
+    #venues{
+        border-top: 0;
+    }
 
 
 
