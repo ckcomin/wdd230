@@ -1,6 +1,11 @@
 header{
     display: flex;
-    background-color: #DFECD5;
+    background-color: rgba(223, 236, 213, .8);
+    width: 100%;
+}
+
+header:hover{
+    background-color: rgb(223, 236, 213);
 }
 
 h1, h2, h3{
@@ -12,11 +17,8 @@ p {
 }
 
 #logo {
+    width: 100%;
     margin-left: 2%;
-    width: 30%;
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
 }
 
 nav button {
@@ -31,9 +33,9 @@ nav {
     position: relative;
     z-index: 999;
     background-color: transparent;
-    padding-right: 15%;
     margin-top: auto;
     margin-bottom: auto;
+    right: -48%;
 }
 
 nav ul {
@@ -86,9 +88,7 @@ nav ul li.highlight a {
 }
 
 /* The subnavigation menu */
-.subnav {
-    overflow: hidden;
-}
+
 
   /* Style the subnav content - positioned absolute */
   .subnav-content {
@@ -152,7 +152,7 @@ footer {
     height: 100%;
     animation-name: fade;
     animation-duration: 3.5s;
-
+    padding-top: auto;
 }
 
 @keyframes fade {
@@ -364,12 +364,16 @@ label.myinput input:required {
     position: absolute;
 }
 
-#venues{
+.wedAcom{
     text-align: center;
     background-color: rgb(184, 207, 224);
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 1%;
     padding: 2%;
+}
+
+#venues{
     border-top: 130px solid white;
 }
 
@@ -377,4 +381,60 @@ label.myinput input:required {
     margin-top: 5%;
     margin-bottom: 2%;
 }
+
+#food img{
+    margin-top: 1%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#food2, #food3{
+    display: none;
+}
+
+#setup img{
+    margin-top: 1%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#setup2, #setup3{
+    display: none;
+}
+
+#suiteLand img{
+    width: 100%;
+    position: relative;
+}
+
+#mission{
+    text-align: center;
+    background-color: rgba(184, 207, 224, .9);
+    margin-top: -10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    color: black;
+    position: absolute;
+}
+
+#suites{
+    border-top: 100px solid white;
+}
+
+.like__btn {
+  padding: 10px 15px;
+  background: #0080ff;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  color: #e8efff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
 

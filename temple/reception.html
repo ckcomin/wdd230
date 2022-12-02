@@ -17,7 +17,13 @@
 </head>
 <body>
     <header>
-        <div><a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a></div>
+        <div><a href="index.html">
+            <picture id="logo" >
+                <source media="(min-width: 64rem)" srcset="images/logo-lg.png">
+                <source media="( min-width: 39.5em)" srcset="images/logo-med.png">
+                <img src="images/logo-sm.png" alt="logo">
+            </picture>
+        </a></div>
         <nav>
             <button id="hamBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="priNav">
@@ -44,11 +50,33 @@
                 <p>Temple Inn & Suites helps make your wedding day magical. From thoughtful service to accommodating venues. Our staff makes sure this is a day to remember.</p>    
             </div>
         </section>
-        <section id="venues">
+        <section class="wedAcom" id="venues">
             <h2>Venues</h2>
             <p>Each Temple Inn & Suites comes with a custom decorated reception hall. Tables and chairs are provided as well as a floral service.</p>
             <div class="locaBtn">
                 <a class='btn' href="temple.html">Locations</a>
+            </div>
+        </section>
+        <section id="food">
+            <div class="wedAcom">
+                <h2>Food Service</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="foodImg">
+                <img id="food1" src="images/catering.jpeg" alt="Catered food">
+                <img id="food2" src="images/catering2.jpeg" alt="Catered food">
+                <img id="food3" src="images/catering3.jpeg" alt="">
+            </div>
+        </section>
+        <section id="setup">
+            <div class="wedAcom">
+                <h2>Setup</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="foodImg">
+                <img id="setup1" src="images/food.jpeg" alt="">
+                <img id="setup2" src="images/setup2.jpeg" alt="">
+                <img id="setup3" src="images/setup3.jpeg" alt="">
             </div>
         </section>
     </main>

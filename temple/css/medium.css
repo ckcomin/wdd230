@@ -5,17 +5,17 @@
     }
     #logo {
         margin-left: 2%;
-        width: 30%;
         display: block;
         margin-left: auto;
-        padding-left: 15%;
         margin-right: auto;
+        width: 30%;
     }
 
     nav{
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: -45%;
+        margin-left: -82%;
+        width: 100%;
     }
 
     footer {
@@ -102,13 +102,54 @@
     #wedding{
         right: -5%;
         width: 40%;
-        top: 40%;
+        margin-top: -40%;
+        bottom: auto;
         background-color: rgba(184, 207, 224, .5);
     }
 
     #venues{
         border-top: 0;
     }
+
+    .foodImg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 3% 3%;
+    }
+
+    #food img{
+        width: 98%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #food2{
+        display: inline;
+    }
+
+    #setup img{
+        width: 98%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #setup2{
+        display: inline;
+    }
+
+    #mission{
+        left: -5%;
+        width: 40%;
+        margin-top: -40%;
+        bottom: auto;
+        background-color: rgba(184, 207, 224, .6);
+    }
+
+    #suites{
+        border-top: 0;
+    }
+
+
 
 
 

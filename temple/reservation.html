@@ -16,15 +16,21 @@
 </head>
 <body>
     <header>
-        <div><a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a></div>
+        <div><a href="index.html">
+            <picture id="logo" >
+                <source media="(min-width: 64rem)" srcset="images/logo-lg.png">
+                <source media="( min-width: 39.5em)" srcset="images/logo-med.png">
+                <img src="images/logo-sm.png" alt="logo">
+            </picture>
+        </a></div>
         <nav>
             <button id="hamBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="priNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="temple.html">Temples</a></li>
-                <li><a href="reservation.html">Reservation</a></li>
+                <li class="highlight"><a href="reservation.html">Reservation</a></li>
                 <div class="subnav">
-                    <li class="highlight"><a class="subnavbtn" href="services.html">Services</a></li>
+                    <li><a class="subnavbtn" href="services.html">Services</a></li>
                     <ul class="subnav-content">
                       <li><a href="reception.html">Receptions</a></li>
                       <li><a href="missionary.html">Missionaries</a></li>
@@ -37,20 +43,25 @@
         <section>
             <form method="get" action="thankyou.html">
                 <h2>Make a Reservation</h2>
-                <label class="myinput"> First Name* <input type="text" name="fname" required></label>
-                <label class="myinput"> Last Name* <input type="text" name="lname" required></label>
-                <label class="myinput"> Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
-                <label class="myinput"> Phone* <input type="tel" name="tel" maxlength="10" required></label>
-                <label class="myinput"> Home State/Country* <input type="text" name="state" required></label>
-                <label class="myinput">Hotel* 
-                    <select name="cars" id="cars" required>
-                        <option value="volvo">Boise</option>
-                        <option value="saab">Meridian</option>
-                        <option value="mercedes">Oakland</option>
-                        <option value="audi">Star Valley</option>
-                    </select>
-                </label>
-                <label class="myinput">Special accommodations/comments<textarea name="accommodations" cols="40" rows="1"></textarea></label>
+                <div id="formInfo">
+                    <label class="myinput"> First Name* <input type="text" name="fname" required></label>
+                    <label class="myinput"> Last Name* <input type="text" name="lname" required></label>
+                    <label class="myinput"> Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
+                    <label class="myinput"> Phone* <input type="tel" name="tel" maxlength="10" required></label>
+                    <label class="myinput"> Home State/Country <input type="text" name="state" ></label>
+                    <label class="myinput"> Number of Guests* <input type="number" name="guests" required></label>
+                    <label class="myinput"> Checkin Date* <input type="date" name="checkin" required></label>
+                    <label class="myinput"> Checkout Date* <input type="date" name="checkout" required></label>
+                    <label class="myinput" id="hotel">Hotel* 
+                        <select name="hotels" id="hotels" required>
+                            <option value="Boise">Boise</option>
+                            <option value="Meridian">Meridian</option>
+                            <option value="Oakland">Oakland</option>
+                            <option value="Star Valley">Star Valley</option>
+                        </select>
+                    </label>
+                    <label class="myinput">Special accommodations/comments<textarea name="accommodations" cols="40" rows="1"></textarea></label>
+                </div>
                 <input id="todaydate" type="hidden" name="datetime" value=""> 
                 <input class="mysubmit" type="submit" value="Reserve!">
             </form>

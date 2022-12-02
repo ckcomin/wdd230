@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64rem) {
     #logo {
-        width: 20%;
+        
         margin-left: 2%;
         padding-left: 0;
         margin-right: 0;
@@ -88,4 +88,32 @@
     #follow .social{
         width: 25%;
     }
+    
+    .foodImg{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+ 
+    }
+
+    #food img{
+        width: 99%;
+    }
+
+    #food3{
+        display: inline;
+    }
+
+    #setup3{
+        display: inline;
+    }
+
+    #formInfo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .myinput select{
+        height: 50%;
+    }
+
 }

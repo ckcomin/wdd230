@@ -17,7 +17,13 @@
 </head>
 <body>
     <header>
-        <div><a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a></div>
+        <div><a href="index.html">
+            <picture id="logo" >
+                <source media="(min-width: 64rem)" srcset="images/logo-lg.png">
+                <source media="( min-width: 39.5em)" srcset="images/logo-med.png">
+                <img src="images/logo-sm.png" alt="logo">
+            </picture>
+        </a></div>
         <nav>
             <button id="hamBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="priNav">
@@ -35,7 +41,37 @@
         </nav>
     </header>
     <main>
-
+        <section id="suiteLand">
+            <div>
+                <img src="images/suiteLand.jpg" alt="">
+            </div>
+            <div id="mission">
+                <h2>Full-time Temple Missionary</h2>
+                <p>Temple inn & Suites has multiple suites made with full-time missionaries in mind.</p>
+            </div>
+        </section>
+        <section id="suites">
+            <div class="wedAcom">
+                <h2>Suites</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+        </section>
+        <section>
+            <img src="" alt="">
+        </section>
+        <section>
+            <form method="get" action="message.html">
+                <fieldset>
+                    <legend><h2>Contact Us!</h2></legend>
+                    <label class="myinput"> Name* <input type="text" name="name" required></label>
+                    <label class="myinput"> Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
+                    <label class="myinput"> Phone* <input type="tel" name="tel" required></label>
+                    <label class="myinput">Message<textarea name="message" cols="80" rows="10" required></textarea></label>
+                    <input id="todaydate" type="hidden" name="datetime" value=""> 
+                    <input class="mysubmit" type="submit" value="Send">
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer>
         <section id="socials">

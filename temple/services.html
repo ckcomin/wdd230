@@ -17,7 +17,13 @@
 </head>
 <body>
     <header>
-        <div><a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a></div>
+        <div><a href="index.html">
+            <picture id="logo" >
+                <source media="(min-width: 64rem)" srcset="images/logo-lg.png">
+                <source media="( min-width: 39.5em)" srcset="images/logo-med.png">
+                <img src="images/logo-sm.png" alt="logo">
+            </picture>
+        </a></div>
         <nav>
             <button id="hamBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="priNav">
