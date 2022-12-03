@@ -288,6 +288,9 @@ footer {
 
 .cards section{
     background-color: #b8cfe0;
+    padding: 1% 3%;
+    margin: 2%;
+
 }
 
 #mainRe{
@@ -378,6 +381,11 @@ label.myinput input:required {
     margin-right: 10%;
     margin-top: 1%;
     padding: 2%;
+}
+
+.foodImg img:hover {
+    opacity: .7;
+    transform: scale(1.04);
 }
 
 #venues{
@@ -545,5 +553,3 @@ label.myinput input:required {
   .shop-item__favorite-button[data-is-favorite] span::before {
     content: attr(data-favorite-added)
   }
-
-
