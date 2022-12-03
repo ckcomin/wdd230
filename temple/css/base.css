@@ -237,12 +237,17 @@ footer {
     grid-template-rows: 1fr;
 }
 
+#conWord{
+    grid-row: 2/3;
+}
+
 #contact img{
     grid-row: 1/2;
-    width: 80%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 #contact h2{

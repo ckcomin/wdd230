@@ -78,10 +78,22 @@
     #contact{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding-right: 2%;
+        padding-left: 2%;
     }
 
-    #contact img{
+    #conWord{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #contact picture{
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 98%;
         grid-column: 2/3;
+        grid-row: 1/2;
     }
 
     #contact div {
