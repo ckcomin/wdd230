@@ -259,6 +259,8 @@ footer {
     text-align: center;
     border: 2px solid #b8cfe0;
     margin-top: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
 
 }
 
@@ -366,7 +368,7 @@ label.myinput input:required {
 
 .wedAcom{
     text-align: center;
-    background-color: rgb(184, 207, 224);
+    background-color: #b8cfe0;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
@@ -400,7 +402,7 @@ label.myinput input:required {
     margin-right: 10%;
 }
 
-#setup2, #setup3{
+#setup2, #setup3, #spcServ2, #spcServ3{
     display: none;
 }
 
@@ -424,6 +426,56 @@ label.myinput input:required {
     border-top: 100px solid white;
 }
 
+#suitesImg img{
+    margin-top: 1%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#servLand img{
+    width: 100%;
+    position: relative;
+}
+
+#accomd{
+    text-align: center;
+    background-color: rgba(184, 207, 224, .9);
+    margin-top: -10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    color: black;
+    position: absolute;
+}
+
+#spcServ{
+    border-top: 90px solid white;
+}
+
+#spcServ img{
+    margin-top: 1%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#spcServ p, #amenit p{
+    text-align: left;
+}
+
+#wedBtn{
+    display: none;
+}
+
+#amenit img{
+    margin-top: 1%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
 .like__btn {
   padding: 10px 15px;
   background: #0080ff;
@@ -436,5 +488,57 @@ label.myinput input:required {
   cursor: pointer;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+  .sr-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    overflow: hidden;
+  }
+
+  
+  .layout {
+    display: flex;
+  }
+  
+  .shop {
+    width: 70%;
+    background: #ededed;
+    padding: 15px;
+  }
+  
+  .favorites {
+    width: 30%;
+    background: #ff9fff;
+    padding: 15px;
+  }
+  
+  .favorites__list:empty:before {
+    content: attr(data-my-favorites-empty);
+    font-style: italic;
+  }
+  
+  .shop-item__favorite-button::before {
+    content: '♡'
+  }
+  
+  .shop-item__favorite-button[data-is-favorite] {
+    background: red;
+  }
+  
+  .shop-item__favorite-button span::before {
+    content: attr(data-favorite)
+  }
+  
+  .shop-item__favorite-button[data-is-favorite] span::before {
+    content: attr(data-favorite-added)
+  }
 
 

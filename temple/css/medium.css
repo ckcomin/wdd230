@@ -96,7 +96,8 @@
     }
 
     #follow .social{
-        width: 13%;
+        margin-right: -55%;
+        margin-left: -55%;
     }
     
     #wedding{
@@ -133,7 +134,7 @@
         margin-right: 0;
     }
 
-    #setup2{
+    #setup2, #spcServ2{
         display: inline;
     }
 
@@ -147,6 +148,36 @@
 
     #suites{
         border-top: 0;
+    }
+
+    #suitesImg img{
+        width: 98%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #spcServ{
+        border-top: 0;
+    }
+
+    #spcServ img{
+        width: 97%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #amenit img{
+        width: 97%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #accomd{
+        left: -5%;
+        width: 40%;
+        margin-top: -40%;
+        bottom: auto;
+        background-color: rgba(184, 207, 224, .5);
     }
 
 

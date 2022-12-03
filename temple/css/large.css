@@ -99,12 +99,27 @@
         width: 99%;
     }
 
-    #food3{
+    #food3, #setup3, #spcServ3{
         display: inline;
     }
 
-    #setup3{
+    #suitesImg img{
+        width: 99%;
+    }
+
+    #spcServ3{
+        position: relative;
+    }
+
+    #wedBtn{
         display: inline;
+
+    }
+
+    #wedBtn a{
+        position: absolute;
+        margin-top: 16%;
+        right: 5%;
     }
 
     #formInfo{
@@ -115,5 +130,7 @@
     .myinput select{
         height: 50%;
     }
+
+
 
 }
