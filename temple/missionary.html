@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
-    <title>Services</title>
+    <title>Missionaries</title>
 </head>
 <body>
     <header>
@@ -43,7 +43,11 @@
     <main>
         <section id="suiteLand">
             <div>
-                <img src="images/suiteland.webp" alt="">
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/suiteLand.webp">
+                    <source media="( min-width: 39.5em)" srcset="images/suiteLand-med.webp">
+                    <img src="images/suiteLand-sm.webp" alt="">
+                </picture>
             </div>
             <div id="mission">
                 <h2>Full-time Temple Missionary</h2>
@@ -57,9 +61,21 @@
             </div>
         </section>
         <section id="suitesImg" class="foodImg">
-            <img src="images/room.webp" alt="">
-            <img src="images/bathroom.webp" alt="">
-            <img src="images/livingRoom.webp" alt="">
+            <picture>
+                <source media="(min-width: 64rem)" srcset="images/room-lg.webp">
+                <source media="( min-width: 39.5em)" srcset="images/room-med.webp">
+                <img src="images/room-sm.webp" alt="">
+            </picture> 
+            <picture>
+                <source media="(min-width: 64rem)" srcset="images/bathroom-lg.webp">
+                <source media="( min-width: 39.5em)" srcset="images/bathroom-med.webp">
+                <img src="images/bathroom-sm.webp" alt="">
+            </picture> 
+            <picture id="suite3">
+                <source media="(min-width: 64rem)" srcset="images/livingRoom-lg.webp">
+                <source media="( min-width: 39.5em)" srcset="images/livingRoom-med.webp">
+                <img src="images/livingRoom-sm.webp" alt="">
+            </picture> 
         </section>
         <section>
             <form method="get" action="message.html">
@@ -83,7 +99,7 @@
         <section id="location">
             <p>4800 Montgomery Ln #300</p>
             <p>Bethesda, MD 20814</p>
-            <img id="pin" src="images/pin.png" alt="pin to maps"><a id="map" target="_blank"  href="https://www.google.com/maps/place/Cottage+Club+Rd,+Stowe,+VT+05672/@44.4815547,-72.7153765,16.75z/data=!4m5!3m4!1s0x4cb596c6c2725b9f:0xd3c45bf698f2c7a6!8m2!3d44.4815633!4d-72.7130654">Location Map</a>
+            <img id="pin" src="images/pin.webp" alt="pin to maps"><a id="map" target="_blank"  href="https://www.google.com/maps/place/Cottage+Club+Rd,+Stowe,+VT+05672/@44.4815547,-72.7153765,16.75z/data=!4m5!3m4!1s0x4cb596c6c2725b9f:0xd3c45bf698f2c7a6!8m2!3d44.4815633!4d-72.7130654">Location Map</a>
         </section>
         <section id="footcontact">
             <p>info@templeinn.com</p>

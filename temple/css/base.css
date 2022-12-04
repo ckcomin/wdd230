@@ -134,7 +134,7 @@ footer {
 }
 
 #pin {
-    width: 4%;
+    width: auto;
 }
 
 #map{
@@ -290,8 +290,12 @@ footer {
     background-color: #b8cfe0;
     padding: 1% 3%;
     margin: 2%;
-
 }
+
+.cards li{
+    font-family: 'Karla', sans-serif; 
+}
+
 
 #mainRe{
     margin: 2rem 5%;
@@ -553,3 +557,4 @@ label.myinput input:required {
   .shop-item__favorite-button[data-is-favorite] span::before {
     content: attr(data-favorite-added)
   }
+

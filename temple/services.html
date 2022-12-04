@@ -43,7 +43,11 @@
     <main>
         <section id="servLand">
             <div>
-                <img src="images/sevLand.webp" alt="">
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/sevLand.webp">
+                    <source media="( min-width: 39.5em)" srcset="images/sevLand-med.webp">
+                    <img src="images/sevLand-sm.webp" alt="">
+                </picture>
             </div>
             <div id="accomd">
                 <h2>Accommodations</h2>
@@ -63,10 +67,17 @@
                 </ul>
             </div>
             <div class="foodImg">
-                <img id="spcServ1" src="images/center.webp" alt="">
-                <img id="spcServ2" src="images/daycare.webp" alt="">
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/center-lg.webp">
+                    <source media="( min-width: 39.5em)" srcset="images/center-med.webp">
+                    <img id="spcServ1" src="images/center-sm.webp" alt="">
+                </picture> 
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/daycare-lg.webp">
+                    <img id="spcServ2" src="images/daycare-med.webp" alt="">
+                </picture> 
                 <div>
-                    <img id="spcServ3" src="images/hall.webp" alt="">
+                    <img id="spcServ3" src="images/hall-lg.webp" alt="">
                     <div id="wedBtn">
                         <a class='btn' href="reception.html">Receptions</a>
                     </div>
@@ -87,9 +98,16 @@
                 </ul>
             </div>
             <div class="foodImg">
-                <img id="spcServ1" src="images/pancake.webp" alt="">
-                <img id="spcServ2" src="images/workout.webp" alt="">
-                <img id="spcServ3" src="images/pool.webp" alt="">
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/pancake-lg.webp">
+                    <source media="( min-width: 39.5em)" srcset="images/pancake-med.webp">
+                    <img id="spcServ1" src="images/pancake-sm.webp" alt="">
+                </picture> 
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/workout-lg.webp">
+                    <img id="spcServ2" src="images/workout-med.webp" alt="">
+                </picture> 
+                <img id="spcServ3" src="images/pool-lg.webp" alt="">
             </div>
         </section>
     </main>
@@ -101,7 +119,7 @@
         <section id="location">
             <p>4800 Montgomery Ln #300</p>
             <p>Bethesda, MD 20814</p>
-            <img id="pin" src="images/pin.png" alt="pin to maps"><a id="map" target="_blank"  href="https://www.google.com/maps/place/Cottage+Club+Rd,+Stowe,+VT+05672/@44.4815547,-72.7153765,16.75z/data=!4m5!3m4!1s0x4cb596c6c2725b9f:0xd3c45bf698f2c7a6!8m2!3d44.4815633!4d-72.7130654">Location Map</a>
+            <img id="pin" src="images/pin.webp" alt="pin to maps"><a id="map" target="_blank"  href="https://www.google.com/maps/place/Cottage+Club+Rd,+Stowe,+VT+05672/@44.4815547,-72.7153765,16.75z/data=!4m5!3m4!1s0x4cb596c6c2725b9f:0xd3c45bf698f2c7a6!8m2!3d44.4815633!4d-72.7130654">Location Map</a>
         </section>
         <section id="footcontact">
             <p>info@templeinn.com</p>

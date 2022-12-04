@@ -107,6 +107,16 @@
         width: 99%;
     }
 
+    #suitesImg {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #suite3{
+        padding-left: 0;
+        grid-column: 3/4;
+    }
+
     #spcServ3{
         position: relative;
     }

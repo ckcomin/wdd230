@@ -16,9 +16,9 @@ function displayCompanies(company) {
     let h3 = document.createElement('h3');    
     let p = document.createElement('p');   
     let p2 = document.createElement('p');
-    let p3 = document.createElement('p');
-    let p4 = document.createElement('p');
-    let p5 = document.createElement('p');
+    let p3 = document.createElement('li');
+    let p4 = document.createElement('li');
+    let p5 = document.createElement('li');
 
     // Change the textContent property of the h2 element to contain the company's full name
     h3.textContent = company.name;

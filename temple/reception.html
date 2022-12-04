@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
-    <title>Services</title>
+    <title>Receptions</title>
 </head>
 <body>
     <header>
@@ -43,7 +43,11 @@
     <main>
         <section id="wedLand">
             <div>
-                <img src="images/ring2.webp" alt="">
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/ring2.webp">
+                    <source media="( min-width: 39.5em)" srcset="images/ring2-med.webp">
+                    <img src="images/ring2-sm.webp" alt="">
+                </picture>
             </div>
             <div id="wedding">
                 <h2>Weddings</h2>
@@ -63,9 +67,16 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
             <div class="foodImg">
-                <img id="food1" src="images/catering.webp" alt="Catered food">
-                <img id="food2" src="images/catering2.webp" alt="Catered food">
-                <img id="food3" src="images/catering3.webp" alt="">
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/catering-lg.webp">
+                    <source media="( min-width: 39.5em)" srcset="images/catering-med.webp">
+                    <img id="food1" src="images/catering-sm.webp" alt="Catered food">
+                </picture> 
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/catering2-lg.webp">
+                    <img id="food2" src="images/catering2-med.webp" alt="Catered food">
+                </picture> 
+                <img id="food3" src="images/catering3-lg.webp" alt="">
             </div>
         </section>
         <section id="setup">
@@ -74,9 +85,16 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
             <div class="foodImg">
-                <img id="setup1" src="images/food.webp" alt="">
-                <img id="setup2" src="images/setup2.webp" alt="">
-                <img id="setup3" src="images/setup3.webp" alt="">
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/food-lg.webp">
+                    <source media="( min-width: 39.5em)" srcset="images/food-med.webp">
+                    <img id="setup1" src="images/food-sm.webp" alt="">
+                </picture> 
+                <picture>
+                    <source media="(min-width: 64rem)" srcset="images/setup2=lg.webp">
+                    <img id="setup2" src="images/setup2-med.webp" alt="">
+                </picture> 
+                <img id="setup3" src="images/setup3-lg.webp" alt="">
             </div>
         </section>
     </main>
@@ -88,7 +106,7 @@
         <section id="location">
             <p>4800 Montgomery Ln #300</p>
             <p>Bethesda, MD 20814</p>
-            <img id="pin" src="images/pin.png" alt="pin to maps"><a id="map" target="_blank"  href="https://www.google.com/maps/place/Cottage+Club+Rd,+Stowe,+VT+05672/@44.4815547,-72.7153765,16.75z/data=!4m5!3m4!1s0x4cb596c6c2725b9f:0xd3c45bf698f2c7a6!8m2!3d44.4815633!4d-72.7130654">Location Map</a>
+            <img id="pin" src="images/pin.webp" alt="pin to maps"><a id="map" target="_blank"  href="https://www.google.com/maps/place/Cottage+Club+Rd,+Stowe,+VT+05672/@44.4815547,-72.7153765,16.75z/data=!4m5!3m4!1s0x4cb596c6c2725b9f:0xd3c45bf698f2c7a6!8m2!3d44.4815633!4d-72.7130654">Location Map</a>
         </section>
         <section id="footcontact">
             <p>info@templeinn.com</p>
