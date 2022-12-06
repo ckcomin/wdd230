@@ -275,9 +275,9 @@ footer {
 }
 
 #follow .social{
-    width: 20%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: auto;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 #media{

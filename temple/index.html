@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name= "description" content="Temple Inn & Suites Homepage">
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -111,8 +112,20 @@
             <section id="follow">
                 <h1>Follow Us!</h1>
                 <div id="media">
-                    <a target="_blank" href="https://www.instagram.com/"><img class="social" src="images/instaSocial.webp" alt="insagram logo"></a>
-                    <a target="_blank" href="https://www.facebook.com/"><img class="social" src="images/faceSocial.webp" alt="facebook logo"></a>
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <picture  >
+                            <source class="instalg" media="(min-width: 64rem)" srcset="images/instaSocial-med.webp">
+                            <source media="( min-width: 39.5em)" srcset="images/instaSocial-med.webp">
+                            <img class="social" src="images/instaSocial-sm.webp" alt="Staff image">
+                        </picture> 
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <picture >
+                            <source media="(min-width: 64rem)" srcset="images/faceSocial-med.webp">
+                            <source media="( min-width: 39.5em)" srcset="images/faceSocial-med.webp">
+                            <img class="social" src="images/faceSocial-sm.webp" alt="facebook logo">
+                        </picture> 
+                    </a>
                 </div>
             </section>
         </div>
