@@ -113,6 +113,11 @@
         margin-left: 40px;
     }
 
+    #tempMain{
+        width: 65%;
+        margin: 5% auto;
+    }
+
     
     #wedding{
         right: -5%;
@@ -178,6 +183,11 @@
     #suite3{
         padding-left: 1%;
         grid-column: 1/3;
+    }
+
+    #conForm fieldset{
+        
+        margin: 5% 4%;
     }
 
     #spcServ{

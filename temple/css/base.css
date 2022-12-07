@@ -199,12 +199,23 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-
 }
 
 .btn:hover {
     background-color: #b8cfe0;
     color: black;
+}
+
+#welcome{
+    margin: 12% 5%;
+    text-align: center;
+    padding: 5%;
+    border: 2px solid #b8cfe0;
+}
+
+#welcome h1{
+    margin-bottom: 5%;
+    
 }
 
 #tempSum{
@@ -286,14 +297,77 @@ footer {
     justify-content: center;
 }
 
-.cards section{
-    background-color: #b8cfe0;
-    padding: 1% 3%;
-    margin: 2%;
+#tempMain{
+    width: 90%;
+    margin: 5% auto;
 }
 
-.cards li{
-    font-family: 'Karla', sans-serif; 
+#tempMain section{
+    display: grid;
+    grid-column: 1fr 1fr;
+    border-radius: 3px;
+    text-align: left;
+    margin-bottom: 18%;
+    background-color: #b8cfe0;
+    padding: 5%;
+}
+
+#tempMain section:hover{
+    transform: scale(1.04);
+}
+
+#cardWord {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: 4%;
+}
+
+#tempMain section div h2{
+    font-size: 16pt;
+    text-align: center;
+}
+
+#tempMain section div h3{
+    text-align: center;
+    font-size: 12pt;
+}
+
+#cardImg{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 7%;
+    grid-column: 2/3;
+}
+
+#tempResBtn{
+    display: block;
+    text-align: center;
+}
+
+#tempMain section img{
+    width: 100%;
+}
+
+#tempMain section input {
+    width: 1em;
+    height: 1em;
+    margin: .5em;
+}
+
+.mycheck{
+    gap: 2em;
+    font-size: 2rem;
+}
+
+#check{
+    display: flex;
+}
+
+#check p{
+    margin-left: -5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -450,6 +524,11 @@ label.myinput input:required {
     margin-right: 10%;
 }
 
+#conForm fieldset{
+    border: solid #b8cfe0;
+    margin: 5% 3%;
+}
+
 #servLand img{
     width: 100%;
     position: relative;
@@ -492,69 +571,4 @@ label.myinput input:required {
     margin-right: 10%;
 }
 
-
-.like__btn {
-  padding: 10px 15px;
-  background: #0080ff;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  border-radius: 5px;
-  color: #e8efff;
-  outline: none;
-  border: none;
-  cursor: pointer;
-}
-
-* {
-    box-sizing: border-box;
-  }
-  
-  .sr-only {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    overflow: hidden;
-  }
-
-  
-  .layout {
-    display: flex;
-  }
-  
-  .shop {
-    width: 70%;
-    background: #ededed;
-    padding: 15px;
-  }
-  
-  .favorites {
-    width: 30%;
-    background: #ff9fff;
-    padding: 15px;
-  }
-  
-  .favorites__list:empty:before {
-    content: attr(data-my-favorites-empty);
-    font-style: italic;
-  }
-  
-  .shop-item__favorite-button::before {
-    content: '♡'
-  }
-  
-  .shop-item__favorite-button[data-is-favorite] {
-    background: red;
-  }
-  
-  .shop-item__favorite-button span::before {
-    content: attr(data-favorite)
-  }
-  
-  .shop-item__favorite-button[data-is-favorite] span::before {
-    content: attr(data-favorite-added)
-  }
 

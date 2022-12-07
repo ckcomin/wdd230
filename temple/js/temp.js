@@ -1,27 +1,35 @@
 let temples = [
     {
         "id": "temple1",
-        "name":"Rexburg Idaho Temple",
-        "dedication":"10 February 2008",
-        "imageURL":"https://assets.ldscdn.org/29/8a/298a8b01fbc736923e83e7c748e60abcad8511c9/rexburg_idaho_temple.jpeg"
+        "name":"Star Valley",
+        "address": "885 S Washington St, Afton WY 83110, United States",
+        "phone": "307-886-6820",
+        "dedication":"30 October 2016",
+        "imageURL":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/star-valley-wyoming/2018/400x640/Star-Valley-Temple02.jpg"
     },
     {
         "id": "temple2",
-        "name":"Idaho Falls Idaho Temple",
-        "dedication":"23 September 1945",
-        "imageURL":"https://assets.ldscdn.org/90/a0/90a0c0d599f94a2d955930e90fa95b9aa85a5004/idaho_falls_idaho_temple.png"
+        "name":"Meridian",
+        "address": "7355 N Linder Rd, Meridian ID 83646, United States",
+        "phone": "208-957-7300",
+        "dedication":"19 November 2017",
+        "imageURL":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/meridian-idaho/400x640/meridian-idaho-1962604.jpg"
     },
     {
         "id": "temple3",
-        "name":"Mount Timpanogos Utah Temple",
-        "dedication":"13 October 1996",
-        "imageURL":"https://assets.ldscdn.org/38/f4/38f4f0d08d11f9aa517fb57f68bbf7f95f1de7ed/mount_timpanogos_utah_temple.jpeg"
+        "name":"Cedar City",
+        "address": "280 South Cove Dr, Cedar City UT 84720, United States",
+        "phone": "435-572-4150",
+        "dedication":"10 December 2017",
+        "imageURL":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cedar-city-utah/400x640/Cedar-City-1905929.jpg"
     },
     {
         "id": "temple4",
-        "name":"Provo Utah Temple",
-        "dedication":"9 February 1972",
-        "imageURL":"https://assets.ldscdn.org/f7/43/f743a6a7ecb335e36c8847d1ed3153f44422460e/provo_temple_lds.jpeg"
+        "name":"Boise",
+        "address": "1211 S Cole Rd, Boise ID 83709-1871, United States",
+        "phone": "208-322-4422",
+        "dedication":"25 May 1984",
+        "imageURL":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/2018/400x640/8-Boise-Idaho-Temple-1464849.jpg"
     }
 ];
 
@@ -40,10 +48,20 @@ let likeslist = JSON.parse(likes_string);
 function displayTemple(temple){
     let main = document.querySelector("main");
     let newsection = document.createElement("section");
-    newsection.innerHTML = `<h2>${temple.name}</h2>
-             <h3>Dedicated on: <span id="dedication-date">${temple.dedication}</span></h3>
-             <img src="${temple.imageURL}">
-             <input class="mycheck" id="check-${temple.id}" type="checkbox" onclick="likeTemple(this);"> Like This Temple!`;
+    newsection.innerHTML = `
+             <div id="cardWord">
+                <h2>${temple.name}</h2>
+                <h3><span id="address">${temple.address}</span></h3>
+                <p>Phone: <span id="phone">${temple.phone}</span></p>
+                <p>Dedicated: <span id="dedication-date">${temple.dedication}</span></p>
+                <div id="check"><input class="mycheck" id="check-${temple.id}" type="checkbox" onclick="likeTemple(this);"><p>Like This Temple!</p></div>
+             </div>
+             <div id="cardImg">
+                <img src="${temple.imageURL}">
+                <a id="tempResBtn" class='btn' href="reservation.html">Reserve Now!</a>
+             </div>
+             `;
+
     main.appendChild(newsection);
 }
 
