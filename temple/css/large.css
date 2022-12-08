@@ -28,12 +28,28 @@
         background-color: transparent;
 	}
 
+    nav ul li.highlight a {
+        text-decoration: underline;
+        text-decoration-color: #b7cfe0;
+        background-color: transparent;
+        text-decoration-thickness: 3px;
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline;
+        text-decoration-color: #889eae;
+        background-color: transparent;
+        text-decoration-thickness: 3px;
+        color: black;
+    }
+
     .subnav-content {
         position: absolute;
         left: 0;
         width: auto;
         left: auto;
         text-align: left;
+        background-color: #b7cfe0;
     }
 
     .subnav-content a {
@@ -41,6 +57,17 @@
         text-decoration: none;
         width: auto;
     }
+
+    .subnav-content li.highlight a{
+        background-color: #889eae;
+        text-decoration: none;
+      }
+      
+      /* Add a grey background color on hover */
+      .subnav-content a:hover {
+        background-color: #889eae;
+        color: white;
+      }
 
     #socials{
         display: flex;
@@ -130,6 +157,10 @@
         display: inline;
     }
 
+    #mission{
+        padding: 3%;
+    }
+
     #suitesImg img{
         width: 99%;
     }
@@ -167,15 +198,21 @@
         right: 5%;
     }
 
-    #formInfo{
+    #mainRe{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .myinput select{
-        height: 50%;
+    #resInfo{
+        margin: 5% 3%;
     }
 
+    #formInfo{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
 
 
 }

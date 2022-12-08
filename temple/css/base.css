@@ -83,8 +83,7 @@ nav ul li a:hover {
 }
 
 nav ul li.highlight a {
-    color: #889eae;
-    /* background-color: #889eae; */
+    background-color: #889eae;
 }
 
 /* The subnavigation menu */
@@ -95,7 +94,7 @@ nav ul li.highlight a {
     display: none;
     position: absolute;
     left: 0;
-    background-color: #b8cfe0;
+    background-color: #DFECD5;
     width: 100%;
     z-index: 1;
   }
@@ -105,10 +104,14 @@ nav ul li.highlight a {
     color: black;
     text-decoration: none;
   }
+
+  .subnav-content li.highlight a{
+    background-color: #adbaa4;
+  }
   
   /* Add a grey background color on hover */
   .subnav-content a:hover {
-    background-color: #889eae;
+    background-color: #adbaa4;
     color: white;
   }
   
@@ -380,6 +383,11 @@ h2{
     font-family: 'Playfair Display', serif;
 }
 
+#mainRe fieldset{
+    border: solid #b8cfe0;
+    margin: 5% 3%;
+}
+
 label.myinput{
     display: grid;
 	grid-template-columns: 1fr;
@@ -426,6 +434,19 @@ label.myinput input, .myinput select{
 
 label.myinput input:required {
     border-color: #adbaa4;
+}
+
+#resInfo div{
+    margin-bottom: 8%;
+}
+
+#suiteBtn{
+    margin-top: 8%;
+}
+
+#resInfo{
+    text-align: center;
+    margin: 15% 3%;
 }
 
 #thanks{
@@ -509,12 +530,17 @@ label.myinput input:required {
     margin-left: 10%;
     margin-right: 10%;
     padding: 2%;
+    padding-bottom: 5%;
     color: black;
     position: absolute;
 }
 
+.bookbtn{
+    margin-top: 8%;
+}
+
 #suites{
-    border-top: 100px solid white;
+    border-top: 145px solid white;
 }
 
 #suitesImg img{

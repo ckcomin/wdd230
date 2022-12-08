@@ -43,10 +43,12 @@
     <main id="mainRe">
         <section>
             <form method="get" action="thankyou.html">
-                <h2>Make a Reservation</h2>
-                <div id="formInfo">
-                    <label class="myinput"> First Name* <input type="text" name="fname" required></label>
-                    <label class="myinput"> Last Name* <input type="text" name="lname" required></label>
+                <fieldset id="formInfo">
+                    <legend><h2>Make a Reservation!</h2></legend>
+                    <div id="names">
+                        <label class="myinput"> First Name* <input type="text" name="fname" required></label>
+                        <label class="myinput"> Last Name* <input type="text" name="lname" required></label>
+                    </div>
                     <label class="myinput"> Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
                     <label class="myinput"> Phone* <input type="tel" name="tel" maxlength="10" required></label>
                     <label class="myinput"> Home State/Country <input type="text" name="state" ></label>
@@ -61,11 +63,37 @@
                             <option value="Star Valley">Star Valley</option>
                         </select>
                     </label>
+                    <label class="myinput" id="hotel">Room* 
+                        <select name="rooms" id="hotels" required>
+                            <option value="suite">Suite</option>
+                            <option value="fulltime">Full-time Suite</option>
+                            <option value="Single">Single King</option>
+                            <option value="double">Double Queen</option>
+                        </select>
+                    </label>
                     <label class="myinput">Special accommodations/comments<textarea name="accommodations" cols="40" rows="1"></textarea></label>
-                </div>
-                <input id="todaydate" type="hidden" name="datetime" value=""> 
-                <input class="mysubmit" type="submit" value="Reserve!">
+                    <input id="todaydate" type="hidden" name="datetime" value=""> 
+                    <input class="mysubmit" type="submit" value="Reserve!">
+                </fieldset>
             </form>
+        </section>
+        <section id="resInfo">
+            <div>
+                <h2>Suites</h2>
+                <p>$400/night</p>
+                <p>Temple Missionary? Contact Us!</p>
+                <div id="suiteBtn">
+                    <a class='btn' href="missionary.html">Full-time Suites</a>
+                </div>
+            </div>
+            <div>
+                <h2>Single King</h2>
+                <p>$80/night</p>
+            </div>
+            <div>
+                <h2>Double Queen</h2>
+                <p>$90/night</p>
+            </div>
         </section>
     </main>
     <footer>

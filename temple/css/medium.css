@@ -118,6 +118,9 @@
         margin: 5% auto;
     }
 
+    #suiteBtn{
+        margin-top: 5%;
+    }
     
     #wedding{
         right: -5%;
@@ -162,7 +165,7 @@
         width: 40%;
         margin-top: -40%;
         bottom: auto;
-        background-color: rgba(184, 207, 224, .6);
+        background-color: rgba(184, 207, 224, .8);
     }
 
     #suites{
@@ -186,7 +189,6 @@
     }
 
     #conForm fieldset{
-        
         margin: 5% 4%;
     }
 
