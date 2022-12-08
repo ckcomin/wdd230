@@ -46,7 +46,7 @@ let likeslist = JSON.parse(likes_string);
 
 // This displays the temple card as before
 function displayTemple(temple){
-    let main = document.querySelector("main");
+    let main = document.querySelector("section");
     let newsection = document.createElement("section");
     newsection.innerHTML = `
              <div id="cardWord">

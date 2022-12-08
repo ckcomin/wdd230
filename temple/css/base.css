@@ -300,12 +300,17 @@ footer {
     justify-content: center;
 }
 
-#tempMain{
+#tempMain h2{
+    text-align: center;
+    font-size: 23pt;
+}
+
+#cards{
     width: 90%;
     margin: 5% auto;
 }
 
-#tempMain section{
+#cards section{
     display: grid;
     grid-column: 1fr 1fr;
     border-radius: 3px;
@@ -315,7 +320,7 @@ footer {
     padding: 5%;
 }
 
-#tempMain section:hover{
+#cards section:hover{
     transform: scale(1.04);
 }
 
@@ -325,12 +330,12 @@ footer {
     margin-right: 4%;
 }
 
-#tempMain section div h2{
+#cards section div h2{
     font-size: 16pt;
     text-align: center;
 }
 
-#tempMain section div h3{
+#cards section div h3{
     text-align: center;
     font-size: 12pt;
 }
@@ -347,11 +352,11 @@ footer {
     text-align: center;
 }
 
-#tempMain section img{
+#cards div img{
     width: 100%;
 }
 
-#tempMain section input {
+#cards div input {
     width: 1em;
     height: 1em;
     margin: .5em;
