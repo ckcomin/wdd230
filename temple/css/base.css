@@ -303,6 +303,7 @@ footer {
 #tempMain h2{
     text-align: center;
     font-size: 23pt;
+    margin: 10%;
 }
 
 #cards{
@@ -457,8 +458,8 @@ label.myinput input:required {
 #thanks{
     text-align: center;
     display: block;
-    margin-bottom: auto;
-    margin-top: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 
@@ -558,6 +559,12 @@ label.myinput input:required {
 #conForm fieldset{
     border: solid #b8cfe0;
     margin: 5% 3%;
+}
+
+#mesPage{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #servLand img{

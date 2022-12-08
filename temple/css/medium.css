@@ -113,6 +113,10 @@
         margin-left: 40px;
     }
 
+    #tempMain h2{
+        margin: 8%;
+    }
+
     #cards{
         width: 65%;
         margin: 5% auto;
