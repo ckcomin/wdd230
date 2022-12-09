@@ -20,8 +20,8 @@
         <div><a href="index.html">
             <picture id="logo" >
                 <source media="(min-width: 64rem)" srcset="images/logo-lg.webp">
-                <source media="( min-width: 39.5em)" srcset="images/logo-med (1).webp">
-                <img src="images/logo-sm (1).webp" alt="logo">
+                <source media="( min-width: 39.5em)" srcset="images/logo-med.webp">
+                <img src="images/logo-sm.webp" alt="logo">
             </picture>
         </a></div>
         <nav>
@@ -29,14 +29,14 @@
             <ul id="priNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="temple.html">Temples</a></li>
-                <li class="highlight"><a href="reservation.html">Reservation</a></li>
-                <div class="subnav">
+                <li><a class="highlight" href="reservation.html">Reservation</a></li>
+                <ul class="subnav">
                     <li><a class="subnavbtn" href="services.html">Services</a></li>
                     <ul class="subnav-content">
                       <li><a href="reception.html">Receptions</a></li>
                       <li><a href="missionary.html">Missionaries</a></li>
                     </ul>
-                </div>
+                </ul>
             </ul>
         </nav>
     </header>
@@ -55,22 +55,16 @@
                     <label class="myinput"> Number of Guests* <input type="number" name="guests" required></label>
                     <label class="myinput"> Checkin Date* <input type="date" name="checkin" required></label>
                     <label class="myinput"> Checkout Date* <input type="date" name="checkout" required></label>
-                    <label class="myinput" id="hotel">Hotel* 
-                        <select name="hotels" id="hotels" required>
-                            <option value="Boise">Boise</option>
-                            <option value="Meridian">Meridian</option>
-                            <option value="Oakland">Oakland</option>
-                            <option value="Star Valley">Star Valley</option>
-                        </select>
-                    </label>
-                    <label class="myinput" id="hotel">Room* 
-                        <select name="rooms" id="hotels" required>
-                            <option value="suite">Suite</option>
-                            <option value="fulltime">Full-time Suite</option>
-                            <option value="Single">Single King</option>
-                            <option value="double">Double Queen</option>
-                        </select>
-                    </label>
+                    <h3>Hotel</h3>
+                    <label class="myradio"><input type="radio" name="level" value="NP">Boise</label>
+                    <label class="myradio"><input type="radio" name="level" value="Meridian">Meridian</label>
+                    <label class="myradio"><input type="radio" name="level" value="Oakland">Oakland</label>
+                    <label class="myradio"><input type="radio" name="level" value="Star Valley">Star Valley</label>
+                    <h3>Room</h3>
+                    <label class="myradio"><input type="radio" name="level" value="Suite">Suite</label>
+                    <label class="myradio"><input type="radio" name="level" value="fulltime">Full-time Suite</label>
+                    <label class="myradio"><input type="radio" name="level" value="Single">Single King</label>
+                    <label class="myradio"><input type="radio" name="level" value="double">Double Queen</label>
                     <label class="myinput">Special accommodations/comments<textarea name="accommodations" cols="40" rows="1"></textarea></label>
                     <input id="todaydate" type="hidden" name="datetime" value=""> 
                     <input class="mysubmit" type="submit" value="Reserve!">

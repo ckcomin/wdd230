@@ -38,7 +38,7 @@ nav {
     right: -48%;
 }
 
-nav ul {
+nav #priNav, .subnav-content {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -48,7 +48,14 @@ nav ul {
     background-color: #b7cfe0;
 }
 
-nav ul.open {
+nav .subnav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav #priNav.open {
     display: block
 }
 
@@ -70,11 +77,12 @@ nav ul.open {
 
 nav ul li a {
     display: block;
-    padding: .8rem 2vw;
+    padding: .8rem 1.7vw;
     text-decoration: none;
     color: black;
     border-top: 1px solid rgba(0,0,0,0.5);
     font-family: 'Karla', sans-serif; 
+    text-align: center;
 }
 
 nav ul li a:hover {
@@ -155,7 +163,7 @@ footer {
     height: 100%;
     animation-name: fade;
     animation-duration: 3.5s;
-    padding-top: auto;
+    
 }
 
 @keyframes fade {
@@ -313,7 +321,7 @@ footer {
 
 #cards section{
     display: grid;
-    grid-column: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     border-radius: 3px;
     text-align: left;
     margin-bottom: 18%;
@@ -421,6 +429,18 @@ label.myinput input, .myinput select{
     max-width: 20rem;
 }
 
+label.myradio {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Karla', sans-serif; 
+}
+
+label.myradio input{
+    margin: 0.5rem;
+    width: 20px;
+    height: 20px;
+}
+
 .mysubmit {
     background-color: #b8cfe0;
     color: black;
@@ -520,7 +540,7 @@ label.myinput input:required {
     margin-right: 10%;
 }
 
-#setup2, #setup3, #spcServ2, #spcServ3{
+#setup2, #setup3, .spcServ2, .spcServ3{
     display: none;
 }
 

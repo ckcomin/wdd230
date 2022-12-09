@@ -14,7 +14,7 @@
     nav{
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: -82%;
+        margin-left: -84%;
         width: 100%;
     }
 
@@ -160,7 +160,7 @@
         margin-right: 0;
     }
 
-    #setup2, #spcServ2{
+    #setup2, .spcServ2{
         display: inline;
     }
 
