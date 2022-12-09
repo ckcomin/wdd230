@@ -5,7 +5,7 @@ let temples = [
         "address": "885 S Washington St, Afton WY 83110, United States",
         "phone": "307-886-6820",
         "dedication":"30 October 2016",
-        "imageURL":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/star-valley-wyoming/2018/400x640/Star-Valley-Temple02.jpg"
+        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-star.jpg"
     },
     {
         "id": "temple2",
@@ -13,7 +13,7 @@ let temples = [
         "address": "7355 N Linder Rd, Meridian ID 83646, United States",
         "phone": "208-957-7300",
         "dedication":"19 November 2017",
-        "imageURL":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/meridian-idaho/400x640/meridian-idaho-1962604.jpg"
+        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-Meridian.jpg"
     },
     {
         "id": "temple3",
@@ -21,7 +21,7 @@ let temples = [
         "address": "280 South Cove Dr, Cedar City UT 84720, United States",
         "phone": "435-572-4150",
         "dedication":"10 December 2017",
-        "imageURL":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cedar-city-utah/400x640/Cedar-City-1905929.jpg"
+        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-cedar.jpg"
     },
     {
         "id": "temple4",
@@ -29,7 +29,7 @@ let temples = [
         "address": "1211 S Cole Rd, Boise ID 83709-1871, United States",
         "phone": "208-322-4422",
         "dedication":"25 May 1984",
-        "imageURL":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/2018/400x640/8-Boise-Idaho-Temple-1464849.jpg"
+        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-boise.jpg"
     }
 ];
 

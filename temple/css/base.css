@@ -151,7 +151,7 @@ footer {
     aspect-ratio: auto 102 / 57;
 }
 
-#pin {
+img #pin {
     width: auto;
     aspect-ratio: auto 15 / 8;
 }
@@ -384,7 +384,7 @@ footer {
 }
 
 #check label{
-    margin-left: -15%;
+    margin-left: -10%;
     font-family: 'Karla', sans-serif; 
 }
 
