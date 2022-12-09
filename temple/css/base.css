@@ -4,6 +4,9 @@ header{
     width: 100%;
 }
 
+img{
+    aspect-ratio: auto 640 / 360;
+}
 
 header:hover{
     background-color: rgb(223, 236, 213);
@@ -19,6 +22,7 @@ p {
 
 #logo {
     width: 100%;
+    height: auto;
     margin-left: 2%;
     aspect-ratio: auto 200 / 113;
 }
@@ -148,6 +152,12 @@ footer {
     aspect-ratio: auto 102 / 57;
 }
 
+#weathericon{
+    width: 50%;
+    height: auto;
+    aspect-ratio: auto 102 / 57;
+}
+
 img #pin {
     width: auto;
     aspect-ratio: auto 15 / 8;
@@ -243,6 +253,7 @@ img #pin {
 
 #tempSum img {
     width: 90%;
+    height: auto;
     display: flex;
     justify-content: center;
     margin-right: 5%;
