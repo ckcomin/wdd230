@@ -90,11 +90,16 @@
     }
 
     #contact picture{
+        grid-column: 2/3;
+        grid-row: 1/2;
         margin-top: auto;
         margin-bottom: auto;
         width: 98%;
-        grid-column: 2/3;
-        grid-row: 1/2;
+
+    }
+
+    #contact img{
+        height: auto;
     }
 
     #contact div {

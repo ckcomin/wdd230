@@ -4,9 +4,6 @@ header{
     width: 100%;
 }
 
-img {
-    aspect-ratio: auto 640 / 360;
-}
 
 header:hover{
     background-color: rgb(223, 236, 213);
@@ -274,6 +271,7 @@ img #pin {
 #contact img{
     grid-row: 1/2;
     width: 90%;
+    height: auto;
     display: flex;
     justify-content: center;
     margin-right: 5%;
