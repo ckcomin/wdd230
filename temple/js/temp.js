@@ -54,10 +54,10 @@ function displayTemple(temple){
                 <h3><span id="address">${temple.address}</span></h3>
                 <p>Phone: <span id="phone">${temple.phone}</span></p>
                 <p>Dedicated: <span id="dedication-date">${temple.dedication}</span></p>
-                <div id="check"><input class="mycheck" id="check-${temple.id}" type="checkbox" onclick="likeTemple(this);"><p>Like This Temple!</p></div>
+                <div id="check"><label><input class="mycheck" id="check-${temple.id}" type="checkbox" onclick="likeTemple(this);">Like This Temple!</label></div>
              </div>
              <div id="cardImg">
-                <img src="${temple.imageURL}">
+                <img src="${temple.imageURL}" alt="${temple.name}-temple">
                 <a id="tempResBtn" class='btn' href="reservation.html">Reserve Now!</a>
              </div>
              `;

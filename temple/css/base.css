@@ -4,6 +4,10 @@ header{
     width: 100%;
 }
 
+img {
+    aspect-ratio: auto 640 / 360;
+}
+
 header:hover{
     background-color: rgb(223, 236, 213);
 }
@@ -19,6 +23,7 @@ p {
 #logo {
     width: 100%;
     margin-left: 2%;
+    aspect-ratio: auto 200 / 113;
 }
 
 nav button {
@@ -142,10 +147,13 @@ footer {
 #socials .social{
     margin-top: 2%;
     width: 5%;
+    height: auto;
+    aspect-ratio: auto 102 / 57;
 }
 
 #pin {
     width: auto;
+    aspect-ratio: auto 15 / 8;
 }
 
 #map{
@@ -184,8 +192,8 @@ footer {
 .arrow{
     position: absolute;
     background-color: transparent;
-    color: white;
-    font-size: 18px;
+    color: black;
+    font-size: 20px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -372,21 +380,13 @@ footer {
 }
 
 .mycheck{
-    gap: 2em;
     font-size: 2rem;
 }
 
-#check{
-    display: flex;
+#check label{
+    margin-left: -15%;
+    font-family: 'Karla', sans-serif; 
 }
-
-#check p{
-    margin-left: -5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 #mainRe{
     margin: 2rem 5%;

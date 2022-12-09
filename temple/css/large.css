@@ -6,6 +6,9 @@
         margin-right: 0;
         padding-bottom: 1%;
     }
+    header{
+        height: 90px;
+    }
     
     nav button {
         display: none;
