@@ -24,3 +24,5 @@ fetch(apiURL)
   .then((jsObject) => {
     weather(jsObject);
   });
+
+  scheduler.postTask(fetch, {priority: 'background'});
