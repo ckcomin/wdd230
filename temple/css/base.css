@@ -124,11 +124,9 @@ nav ul li.highlight a {
     background-color: #adbaa4;
     color: white;
 }
-  
 .subnav:hover .subnav-content {
     display: block;
 }
-
 footer {
     margin-top: 8%;
     padding-top: 1%;
@@ -139,53 +137,42 @@ footer {
     font-family: 'Karla', sans-serif; 
     height: 100%;
 }
-
 #socials{
     max-width: 632px;
     max-height: 48px;
 }
-
 #socials .social{
     margin-top: 2%;
     width: 30px;
     height: 30px;
     aspect-ratio: auto 102 / 57;
 }
-
 #weathericon{
     width: 50%;
     height: auto;
     aspect-ratio: auto 102 / 57;
 }
-
 img #pin {
     width: 15px;
     height: 15px;
 }
-
 #map{
     text-decoration: none;
     color: black;
 }
-
 .landing{
     position: relative;
-
 }
-
 .mySlides{
     width: 100%;
     height: 100%;
 }
-
 #slides picture:nth-child(2), #slides picture:nth-child(3), #slides picture:nth-child(4){
     display: none;
 }
-
 .arrow{
     display: none;
 }
-
 .btn{
     background-color: #DFECD5;
     color: black;
@@ -196,7 +183,6 @@ img #pin {
     font-family: 'Playfair Display', serif;
     opacity: .9;
 }
-
 #reserve {
     position: absolute;
     top: 90%;
@@ -204,31 +190,25 @@ img #pin {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
-
 .btn:hover {
     background-color: #b8cfe0;
     color: black;
 }
-
 #welcome{
     margin: 12% 5%;
     text-align: center;
     padding: 5%;
     border: 2px solid #b8cfe0;
 }
-
 #welcome h1{
-    margin-bottom: 5%;
-    
+    margin-bottom: 5%; 
 }
-
 #tempSum{
     padding-top: 5%;
     padding-bottom: 5%;
     margin-top: 8%;
     background-color: #b8cfe0;
 }
-
 #tempSum img {
     width: 90%;
     height: auto;
@@ -237,13 +217,11 @@ img #pin {
     margin-right: 5%;
     margin-left: 5%;
 }
-
 #tempSum h2, #tempSum p{
     text-align: center;
     margin-right: 5%;
     margin-left: 5%;
 }
-
 #contact{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -252,11 +230,9 @@ img #pin {
     display: grid;
     grid-template-rows: 1fr;
 }
-
 #conWord{
     grid-row: 2/3;
 }
-
 #contact img{
     grid-row: 1/2;
     width: 90%;
@@ -266,43 +242,34 @@ img #pin {
     margin-right: 5%;
     margin-left: 5%;
 }
-
 #contact h2{
     text-align: center;
-    
 }
-
 #contact ul{
     margin-left: 5%;
     font-family: 'Karla', sans-serif; 
 }
-
 #weather{
     text-align: center;
     border: 2px solid #b8cfe0;
     margin-top: 8%;
     margin-left: 2%;
     margin-right: 2%;
-
 }
-
 #follow{
     margin-top: 8%;
     text-align: center;
 }
-
 #follow .social{
     width: auto;
     margin-right: 25px;
     margin-left: 25px;
 }
-
 #media{
     margin-top: 5%;
     display: flex;
     justify-content: center;
 }
-
 #tempMain h2{
     text-align: center;
     font-size: 23pt;
@@ -310,12 +277,10 @@ img #pin {
     height: auto;
     max-height: 25px;
 }
-
 #cards{
     width: 90%;
     margin: 5% auto;
 }
-
 #cards section{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -325,11 +290,9 @@ img #pin {
     background-color: #b8cfe0;
     padding: 5%;
 }
-
 #cards section:hover{
     transform: scale(1.04);
 }
-
 #cardWord {
     margin-bottom: auto;
     margin-top: auto;
