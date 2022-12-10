@@ -147,8 +147,8 @@ footer {
 
 #socials .social{
     margin-top: 2%;
-    width: 5%;
-    height: auto;
+    width: 30px;
+    height: 30px;
     aspect-ratio: auto 102 / 57;
 }
 
@@ -159,8 +159,8 @@ footer {
 }
 
 img #pin {
-    width: auto;
-    aspect-ratio: auto 15 / 8;
+    width: 15px;
+    height: 15px;
 }
 
 #map{

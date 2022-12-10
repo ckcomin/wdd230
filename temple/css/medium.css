@@ -47,7 +47,8 @@
     }
 
     #socials .social{
-        width: 20%;
+        width: 67px;
+        height: 67px;
         margin-right: auto;
         margin-left: auto;
     }

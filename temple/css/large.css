@@ -78,9 +78,10 @@
     }
 
     #socials .social{
-        margin-right: 1%;
-        margin-left: 1%;
-        width: 40%;
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 67px;
+        height: 67px;
     }
 
     #reserve {
