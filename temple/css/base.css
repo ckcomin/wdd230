@@ -140,6 +140,11 @@ footer {
     height: 100%;
 }
 
+/* #socials{
+    max-width: 632px;
+    max-height: 48px;
+} */
+
 #socials .social{
     margin-top: 2%;
     width: 30px;
@@ -301,7 +306,9 @@ img #pin {
 #tempMain h2{
     text-align: center;
     font-size: 23pt;
-    margin: 10%;
+    width: 90%;
+    height: auto;
+    max-height: 25px;
 }
 
 #cards{

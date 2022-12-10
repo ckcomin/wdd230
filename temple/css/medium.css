@@ -44,6 +44,8 @@
         margin-top: auto;
         margin-bottom: auto;
         display: grid;
+        max-width: 342px;
+        max-height: 125px;
     }
 
     #socials .social{
