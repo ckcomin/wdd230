@@ -133,10 +133,6 @@ footer {
     height: auto;
     aspect-ratio: auto 102 / 57;
 }
-img #pin {
-    width: 15px;
-    height: 15px;
-}
 #map{
     text-decoration: none;
     color: black;
