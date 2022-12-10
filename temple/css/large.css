@@ -1,6 +1,5 @@
 @media only screen and (min-width: 64rem) {
-    #logo {
-        
+    #logo {   
         margin-left: 2%;
         padding-left: 0;
         margin-right: 0;
@@ -9,20 +8,16 @@
     header{
         height: 90px;
     }
-    
     nav button {
         display: none;
     }
-
     nav ul li a {
         border: none;
     }
-
 	nav{
         padding: 0;
 		margin-top: 4%;
 	}
-
 	nav #priNav {
 		display: flex;
         position: relative;
@@ -30,14 +25,12 @@
 		font-size: 15pt;
         background-color: transparent;
 	}
-
     nav ul li.highlight a {
         text-decoration: underline;
         text-decoration-color: #b7cfe0;
         background-color: transparent;
         text-decoration-thickness: 3px;
     }
-
     nav ul li a:hover {
         text-decoration: underline;
         text-decoration-color: #889eae;
@@ -45,7 +38,6 @@
         text-decoration-thickness: 3px;
         color: black;
     }
-
     .subnav-content {
         position: absolute;
         left: 0;
@@ -54,76 +46,62 @@
         text-align: left;
         background-color: #b7cfe0;
     }
-
     .subnav-content a {
         color: black;
         text-decoration: none;
         width: auto;
     }
-
     .subnav-content li.highlight a{
         background-color: #889eae;
         text-decoration: none;
-      }
-      
+    }  
     .subnav-content a:hover {
         background-color: #889eae;
         color: white;
-      }
-
+    }
     #socials{
         display: flex;
         padding-left: 35%;
     }
-
     #socials .social{
         margin-right: 5%;
         margin-left: 5%;
         width: 60px;
         height: 60px;
     }
-
     #reserve {
         font-size: 20pt;
         padding: 15px 30px;
     }
-
     #welcome{
         margin: 10% 28%;
         padding: 4%;
     }
-
     #welcome h1{
         margin-bottom: 8%;
     }
-
     #homeLarge{
         margin-top: 5%;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
     #weather{
         grid-column: 2/3;
     }
-
     #follow{
         margin-top: -50%;
         grid-column: 1/2;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
     #follow h1{
         margin-top: auto;
         margin-bottom: auto;
     }
-
     #media{
         display: grid;
         grid-template-columns: 1fr;
     }
-
     #follow .social{
         width: auto;
         margin-right: 0;
@@ -131,12 +109,10 @@
         margin-top: 10px;
         margin-bottom: -10%;
     }
-
     #tempMain h2{
         font-size: 23pt;
         margin: 4%;
     }
-
     #cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -144,76 +120,59 @@
         margin: 5% 2%;
         justify-content: center;
     }
-
     #cards section{
         width: 83%;
-
     }
-    
     .foodImg{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-
     #food img{
         width: 99%;
     }
-
     #food3, #setup3, .spcServ3{
         display: inline;
     }
-
     #mission{
         padding: 3%;
     }
-
     #suitesImg img{
         width: 99%;
     }
-
     #suitesImg {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-
     #suite3{
         padding-left: 0;
         grid-column: 3/4;
     }
-
     #conForm fieldset{
         margin: 5% 15%;
     }
-
     #conForm label, #conForm .mysubmit{
         margin-left: 2%;
     }
-
     .spcServ3{
         position: relative;
     }
-
     #wedBtn{
         display: inline;
     }
-
     #wedBtn a{
         position: absolute;
         margin-top: 16%;
         right: 5%;
     }
-
     #mainRe{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
     label.myradio input{
         margin: 0.5rem;
         width: auto;
         height: auto;
     }
-
     #resInfo{
         margin: 5% 3%;
     }
