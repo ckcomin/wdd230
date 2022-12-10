@@ -32,23 +32,20 @@ let temples = [
         "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-boise.webp"
     }
 ];
-
 const LIKES_KEY = "temple-likes";
 let likes_string = localStorage.getItem(LIKES_KEY);
 if (likes_string==null){
     likes_string="[]";
     localStorage.setItem(LIKES_KEY, likes_string);
 }
-
 let likeslist = JSON.parse(likes_string);
-
 function displayTemple(temple){
     let main = document.querySelector("section");
     let newsection = document.createElement("section");
     newsection.innerHTML = `
              <div id="cardWord">
                 <h2>${temple.name}</h2>
-                <h3><span id="address">${temple.address}</span></h3>
+                <p><span id="address">${temple.address}</span></p>
                 <p>Phone: <span id="phone">${temple.phone}</span></p>
                 <p>Dedicated: <span id="dedication-date">${temple.dedication}</span></p>
                 <div id="check"><label><input class="mycheck" id="check-${temple.id}" type="checkbox" onclick="likeTemple(this);">Like This Temple!</label></div>
@@ -56,11 +53,9 @@ function displayTemple(temple){
              <div id="cardImg">
                 <img src="${temple.imageURL}" alt="${temple.name}-temple">
                 <a id="tempResBtn" class='btn' href="reservation.html">Reserve Now!</a>
-             </div>
-             `;
+             </div>`;
     main.appendChild(newsection);
 }
-
 function likeTemple(item){
     let likes_string = localStorage.getItem(LIKES_KEY);
     let likeslist = JSON.parse(likes_string);
@@ -76,11 +71,9 @@ function likeTemple(item){
     }
     localStorage.setItem(LIKES_KEY, JSON.stringify(likeslist));
 }
-
 function displayLike(item){
     let obj = document.getElementById(item);
     obj.checked = true;
 }
-
 temples.forEach(displayTemple);
 likeslist.forEach(displayLike);
