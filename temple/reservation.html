@@ -10,18 +10,15 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Reservation</title>
 </head>
 <body>
     <header>
         <div><a href="index.html">
             <picture id="logo" >
-                <source media="(min-width: 64rem)" srcset="images/logo-lg.webp">
-                <source media="( min-width: 39.5em)" srcset="images/logo-med.webp">
-                <img src="images/logo-sm.webp" alt="logo">
+                <source media="(min-width: 64rem)" srcset="images/logo-lg.webp" width="180px" height="90px">
+                <source media="( min-width: 39.5em)" srcset="images/logo-med.webp" width="200px" height="100px">
+                <img src="images/logo-sm.webp" alt="logo" width="150px" height="75px">
             </picture>
         </a></div>
         <nav>
@@ -92,8 +89,20 @@
     </main>
     <footer>
         <section id="socials">
-            <a target="_blank" href="https://www.instagram.com/"><img class="social" src="images/instaSocial.webp" alt="insagram logo"></a>
-            <a target="_blank" href="https://www.facebook.com/"><img class="social" src="images/faceSocial.webp" alt="facebook logo"></a>
+            <a target="_blank" href="https://www.instagram.com/">
+                <picture  >
+                    <source class="instalg" media="(min-width: 64rem)" srcset="images/in-foot-lg.webp">
+                    <source media="( min-width: 39.5em)" srcset="images/in-foot-med.webp">
+                    <img class="social" src="images/in-foot-sm.webp" alt="insagram logo">
+                </picture> 
+            </a>
+            <a target="_blank" href="https://www.facebook.com/">
+                <picture>
+                    <source class="instalg" media="(min-width: 64rem)" srcset="images/face-foot-lg.webp">
+                    <source media="( min-width: 39.5em)" srcset="images/face-foot-med.webp">
+                    <img class="social" src="images/face-foot-sm.webp" alt="insagram logo">
+                </picture> 
+            </a>
         </section>
         <section id="location">
             <p>4800 Montgomery Ln #300</p>
