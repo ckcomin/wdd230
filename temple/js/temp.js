@@ -54,7 +54,7 @@ function displayTemple(temple){
                 <div id="check"><label><input class="mycheck" id="check-${temple.id}" type="checkbox" onclick="likeTemple(this);">Like This Temple!</label></div>
              </div>
              <div id="cardImg">
-                <img src="${temple.imageURL}" alt="${temple.name}-temple">
+                <img src="${temple.imageURL}" alt="${temple.name}-temple" loading="lazy" width="328px" height="465px">
                 <a id="tempResBtn" class='btn' href="reservation.html">Reserve Now!</a>
              </div>
              `;
