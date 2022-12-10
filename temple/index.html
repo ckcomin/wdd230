@@ -135,8 +135,20 @@
     </main>
     <footer>
         <section id="socials">
-            <a target="_blank" href="https://www.instagram.com/"><img class="social" src="images/instaSocial.webp" alt="insagram logo"></a>
-            <a target="_blank" href="https://www.facebook.com/"><img class="social" src="images/faceSocial.webp" alt="facebook logo"></a>
+            <a target="_blank" href="https://www.instagram.com/">
+                <picture  >
+                    <source class="instalg" media="(min-width: 64rem)" srcset="images/in-foot-lg.webp">
+                    <source media="( min-width: 39.5em)" srcset="images/in-foot-med.webp">
+                    <img class="social" src="images/in-foot-sm.webp" alt="insagram logo">
+                </picture> 
+            </a>
+            <a target="_blank" href="https://www.facebook.com/">
+                <picture>
+                    <source class="instalg" media="(min-width: 64rem)" srcset="images/face-foot-lg.webp">
+                    <source media="( min-width: 39.5em)" srcset="images/face-foot-med.webp">
+                    <img class="social" src="images/face-foot-sm.webp" alt="insagram logo">
+                </picture> 
+            </a>
         </section>
         <section id="location">
             <p>4800 Montgomery Ln #300</p>
