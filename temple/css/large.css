@@ -69,6 +69,9 @@
         width: 60px;
         height: 60px;
     }
+    #weathericon{
+        width: 50%
+    }
     #reserve {
         font-size: 20pt;
         padding: 15px 30px;
