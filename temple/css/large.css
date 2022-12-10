@@ -66,8 +66,7 @@
         text-decoration: none;
       }
       
-      /* Add a grey background color on hover */
-      .subnav-content a:hover {
+    .subnav-content a:hover {
         background-color: #889eae;
         color: white;
       }
@@ -96,7 +95,6 @@
 
     #welcome h1{
         margin-bottom: 8%;
-        
     }
 
     #homeLarge{
@@ -155,7 +153,6 @@
     .foodImg{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
- 
     }
 
     #food img{
@@ -198,7 +195,6 @@
 
     #wedBtn{
         display: inline;
-
     }
 
     #wedBtn a{
@@ -221,13 +217,4 @@
     #resInfo{
         margin: 5% 3%;
     }
-
-    #formInfo{
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
-    }
-
-
 }

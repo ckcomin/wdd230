@@ -102,39 +102,32 @@ nav ul li.highlight a {
     background-color: #889eae;
 }
 
-/* The subnavigation menu */
-
-
-  /* Style the subnav content - positioned absolute */
-  .subnav-content {
+.subnav-content {
     display: none;
     position: absolute;
     left: 0;
     background-color: #DFECD5;
     width: 100%;
     z-index: 1;
-  }
+}
   
-  /* Style the subnav links */
-  .subnav-content a {
+.subnav-content a {
     color: black;
     text-decoration: none;
   }
 
-  .subnav-content li.highlight a{
+.subnav-content li.highlight a{
     background-color: #adbaa4;
-  }
-  
-  /* Add a grey background color on hover */
-  .subnav-content a:hover {
+}
+
+.subnav-content a:hover {
     background-color: #adbaa4;
     color: white;
-  }
+}
   
-  /* When you move the mouse over the subnav container, open the subnav content */
-  .subnav:hover .subnav-content {
+.subnav:hover .subnav-content {
     display: block;
-  }
+}
 
 footer {
     margin-top: 8%;
@@ -470,7 +463,6 @@ label.myinput input:required {
     margin-bottom: 5%;
     margin-top: 5%;
 }
-
 
 #wedLand img{
     width: 100%;
