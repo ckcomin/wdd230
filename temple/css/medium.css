@@ -11,29 +11,24 @@
         margin-right: auto;
         width: 30%;
     }
-
     nav{
         margin-top: auto;
         margin-bottom: auto;
         margin-left: -84%;
         width: 100%;
     }
-
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-
     footer section {
         margin-bottom: 5%;
     }
-
     #location{
         display: block;
         margin-top: auto;
         margin-bottom: auto;
     }
-
     #footcontact{
         display: block;
         margin-top: auto;
@@ -59,16 +54,14 @@
     @keyframes fade {
         from {opacity: .6}
         to {opacity: 1}
-      }
+    }
     #right{
         right: 0;
         top: 50%;
     }
-    
     #left{
         top: 50%;
     }
-    
     .arrow{
         position: absolute;
         background-color: transparent;
@@ -80,35 +73,27 @@
         border-radius: 5px;
         display: inline;
     }
-
     #slides picture:nth-child(2), #slides picture:nth-child(3), #slides picture:nth-child(4){
         display: inline;
     }
-
     #tempSum{
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding-right: 2%;
         padding-left: 2%;
     }
-
     #tempSum picture{
         margin-top: auto;
         margin-bottom: auto;
         width: 98%;
     }
-
     #tempSum div{
         display: block;
         margin-top: auto;
         margin-bottom: auto;
     }
-
-    #tempSum p{
-
-        text-align: left;
+    #tempSum p{    text-align: left;
     }
-    
     #contact{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -116,12 +101,10 @@
         padding-right: 2%;
         padding-left: 2%;
     }
-
     #conWord{
         grid-column: 1/2;
         grid-row: 1/2;
     }
-
     #contact picture{
         grid-column: 2/3;
         grid-row: 1/2;
@@ -129,41 +112,33 @@
         margin-bottom: auto;
         width: 98%;
     }
-
     #contact img{
         height: auto;
     }
-
     #contact div {
         display: block;
         margin-top: auto;
         margin-bottom: auto;
     }
-
     #weather{
         margin-left: 30%;
         margin-right: 30%;
     }
-
     #follow .social{
         width: auto;
         margin-right: 40px;
         margin-left: 40px;
     }
-
     #tempMain h2{
         margin: 8%;
     }
-
     #cards{
         width: 65%;
         margin: 5% auto;
     }
-
     #suiteBtn{
         margin-top: 5%;
     }
-    
     #wedding{
         right: -5%;
         width: 40%;
@@ -171,37 +146,30 @@
         bottom: auto;
         background-color: rgba(184, 207, 224, .5);
     }
-
     #venues{
         border-top: 0;
     }
-
     .foodImg{
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 3% 3%;
     }
-
     #food img{
         width: 98%;
         margin-left: 0;
         margin-right: 0;
     }
-
     #food2{
         display: inline;
     }
-
     #setup img{
         width: 98%;
         margin-left: 0;
         margin-right: 0;
     }
-
     #setup2, .spcServ2{
         display: inline;
     }
-
     #mission{
         left: -5%;
         width: 40%;
@@ -209,47 +177,38 @@
         bottom: auto;
         background-color: rgba(184, 207, 224, .8);
     }
-
     #suites{
         border-top: 0;
     }
-
     #suitesImg img{
         width: 98%;
         margin-left: 0;
         margin-right: 0;
     }
-
     #suitesImg {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
     #suite3{
         padding-left: 1%;
         grid-column: 1/3;
     }
-
     #conForm fieldset{
         margin: 5% 4%;
     }
-
     #spcServ{
         border-top: 0;
     }
-
     #spcServ img{
         width: 97%;
         margin-left: 0%;
         margin-right: 0%;
     }
-
     #amenit img{
         width: 97%;
         margin-left: 0%;
         margin-right: 0%;
     }
-
     #accomd{
         left: -5%;
         width: 40%;

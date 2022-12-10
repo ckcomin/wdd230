@@ -1,34 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Playfair+Display&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Playfair+Display&display=swap, &display=swap');
 header{
     display: flex;
     background-color: rgba(223, 236, 213, .8);
     width: 100%;
 }
-
 img{
     aspect-ratio: auto 640 / 360;
 }
-
 header:hover{
     background-color: rgb(223, 236, 213);
 }
-
 h1, h2, h3{
     font-family: 'Playfair Display', serif;
 }
-
 p {
     font-family: 'Karla', sans-serif; 
 }
-
 #logo {
     width: 100%;
     height: auto;
     margin-left: 2%;
     aspect-ratio: auto 200 / 113;
 }
-
 nav button {
     background-color: transparent;
     border: none;
@@ -36,7 +29,6 @@ nav button {
     color: black;
     cursor: pointer;
 }
-
 nav {
     position: relative;
     z-index: 999;
@@ -45,7 +37,6 @@ nav {
     margin-bottom: auto;
     right: -48%;
 }
-
 nav #priNav, .subnav-content {
     list-style-type: none;
     padding: 0;
@@ -55,34 +46,27 @@ nav #priNav, .subnav-content {
     position: absolute;
     background-color: #b7cfe0;
 }
-
 nav .subnav{
     list-style-type: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
-
 nav #priNav.open {
     display: block
 }
-
 #hamBtn span:nth-child(1) {
     display: block;
 }
-
 #hamBtn span:nth-child(2) {
     display: none;
 }
-
 #hamBtn.open span:nth-child(1) {
     display: none;
 }
-
 #hamBtn.open span:nth-child(2) {
     display: block;
 }
-
 nav ul li a {
     display: block;
     padding: .8rem 1.7vw;
@@ -92,16 +76,13 @@ nav ul li a {
     font-family: 'Karla', sans-serif; 
     text-align: center;
 }
-
 nav ul li a:hover {
     background-color: #889eae;
     color: white;
 }
-
 nav ul li.highlight a {
     background-color: #889eae;
 }
-
 .subnav-content {
     display: none;
     position: absolute;
@@ -109,17 +90,14 @@ nav ul li.highlight a {
     background-color: #DFECD5;
     width: 100%;
     z-index: 1;
-}
-  
+} 
 .subnav-content a {
     color: black;
     text-decoration: none;
-  }
-
+}
 .subnav-content li.highlight a{
     background-color: #adbaa4;
 }
-
 .subnav-content a:hover {
     background-color: #adbaa4;
     color: white;
@@ -298,62 +276,50 @@ img #pin {
     margin-top: auto;
     margin-right: 4%;
 }
-
 #cards section div h2{
     font-size: 16pt;
     text-align: center;
 }
-
 #cards section div h3{
     text-align: center;
     font-size: 12pt;
 }
-
 #cardImg{
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 7%;
     grid-column: 2/3;
 }
-
 #tempResBtn{
     display: block;
     text-align: center;
 }
-
 #cards div img{
     width: 100%;
 }
-
 #cards div input {
     width: 1em;
     height: 1em;
     margin: .5em;
 }
-
 .mycheck{
     font-size: 2rem;
 }
-
 #check label{
     margin-left: -10%;
     font-family: 'Karla', sans-serif; 
 }
-
 #mainRe{
     margin: 2rem 5%;
     padding: .5rem 2%;
 }
-
 h2{
     font-family: 'Playfair Display', serif;
 }
-
 #mainRe fieldset{
     border: solid #b8cfe0;
     margin: 5% 3%;
 }
-
 label.myinput{
     display: grid;
 	grid-template-columns: 1fr;
@@ -362,37 +328,31 @@ label.myinput{
     font-family: 'Karla', sans-serif; 
     
 }
-
 label.myinput input, .myinput select{
     padding: .5rem;
     width: 10rem;
     max-width: 10rem;
     font-family: 'Karla', sans-serif; 
 }
-
 .myinput select{
     cursor: pointer;
 }
-
 #mainRe label.myinput textarea{
     padding: .5rem;
     width: 20rem;
     height: 5rem;
     max-width: 20rem;
 }
-
 label.myradio {
     display: block;
     margin-bottom: 15px;
     font-family: 'Karla', sans-serif; 
 }
-
 label.myradio input{
     margin: 0.5rem;
     width: 20px;
     height: 20px;
 }
-
 .mysubmit {
     background-color: #b8cfe0;
     color: black;
@@ -403,42 +363,34 @@ label.myradio input{
     border-radius: 5px;
     font-family: 'Playfair Display', serif;
 }
-
 .mysubmit:hover {   
     background-color: #889eae;
     color: black;
     cursor: pointer;
 }
-
 label.myinput input:required {
     border-color: #adbaa4;
 }
-
 #resInfo div{
     margin-bottom: 8%;
 }
-
 #suiteBtn{
     margin-top: 8%;
 }
-
 #resInfo{
     text-align: center;
     margin: 15% 3%;
 }
-
 #thanks{
     text-align: center;
     display: block;
     margin-bottom: 5%;
     margin-top: 5%;
 }
-
 #wedLand img{
     width: 100%;
     position: relative;
 }
-
 #wedding{
     text-align: center;
     background-color: rgba(184, 207, 224, .9);
@@ -449,7 +401,6 @@ label.myinput input:required {
     color: black;
     position: absolute;
 }
-
 .wedAcom{
     text-align: center;
     background-color: #b8cfe0;
@@ -458,48 +409,39 @@ label.myinput input:required {
     margin-top: 1%;
     padding: 2%;
 }
-
 .foodImg img:hover {
     opacity: .7;
     transform: scale(1.04);
 }
-
 #venues{
     border-top: 130px solid white;
 }
-
 .locaBtn{
     margin-top: 5%;
     margin-bottom: 2%;
 }
-
 #food img{
     margin-top: 1%;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
-
 #food2, #food3{
     display: none;
 }
-
 #setup img{
     margin-top: 1%;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
-
 #setup2, #setup3, .spcServ2, .spcServ3{
     display: none;
 }
-
 #suiteLand img{
     width: 100%;
     position: relative;
 }
-
 #mission{
     text-align: center;
     background-color: rgba(184, 207, 224, .9);
@@ -511,38 +453,31 @@ label.myinput input:required {
     color: black;
     position: absolute;
 }
-
 .bookbtn{
     margin-top: 8%;
 }
-
 #suites{
     border-top: 145px solid white;
 }
-
 #suitesImg img{
     margin-top: 1%;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
-
 #conForm fieldset{
     border: solid #b8cfe0;
     margin: 5% 3%;
 }
-
 #mesPage{
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
 #servLand img{
     width: 100%;
     position: relative;
 }
-
 #accomd{
     text-align: center;
     background-color: rgba(184, 207, 224, .9);
@@ -553,31 +488,24 @@ label.myinput input:required {
     color: black;
     position: absolute;
 }
-
 #spcServ{
     border-top: 90px solid white;
 }
-
 #spcServ img{
     margin-top: 1%;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
-
 #spcServ p, #amenit p{
     text-align: left;
 }
-
 #wedBtn{
     display: none;
 }
-
 #amenit img{
     margin-top: 1%;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
-
-
