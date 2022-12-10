@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Playfair+Display&display=swap');
-@font-face {
-    font-display: swap;
-}
 header{
     display: flex;
     background-color: rgba(223, 236, 213, .8);
