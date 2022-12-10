@@ -5,7 +5,7 @@ let temples = [
         "address": "885 S Washington St, Afton WY 83110, United States",
         "phone": "307-886-6820",
         "dedication":"30 October 2016",
-        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-star.jpg"
+        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-star.webp"
     },
     {
         "id": "temple2",
@@ -13,7 +13,7 @@ let temples = [
         "address": "7355 N Linder Rd, Meridian ID 83646, United States",
         "phone": "208-957-7300",
         "dedication":"19 November 2017",
-        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-Meridian.jpg"
+        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-Meridian.webp"
     },
     {
         "id": "temple3",
@@ -21,7 +21,7 @@ let temples = [
         "address": "280 South Cove Dr, Cedar City UT 84720, United States",
         "phone": "435-572-4150",
         "dedication":"10 December 2017",
-        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-cedar.jpg"
+        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-cedar.webp"
     },
     {
         "id": "temple4",
@@ -29,7 +29,7 @@ let temples = [
         "address": "1211 S Cole Rd, Boise ID 83709-1871, United States",
         "phone": "208-322-4422",
         "dedication":"25 May 1984",
-        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-boise.jpg"
+        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-boise.webp"
     }
 ];
 
