@@ -138,6 +138,10 @@
     #tempMain h2{
         margin: 8%;
     }
+    #cards section{
+        max-width: auto;
+        min-height: auto;
+    }
     #cards{
         width: 65%;
         margin: 5% auto;

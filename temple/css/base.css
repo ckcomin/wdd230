@@ -267,6 +267,8 @@ footer p{
     margin-bottom: 18%;
     background-color: #b8cfe0;
     padding: 5%;
+    max-width: 568px;
+    max-height: 428px;
 }
 #cardWord {
     margin-bottom: auto;
