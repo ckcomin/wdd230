@@ -141,6 +141,9 @@
         width: 65%;
         margin: 5% auto;
     }
+    #dedication-date{
+        display: inline;
+    }
     #cards section:hover{
         transform: scale(1.04);
     }

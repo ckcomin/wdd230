@@ -47,7 +47,7 @@ function displayTemple(temple){
                 <h2>${temple.name}</h2>
                 <p><span id="address">${temple.address}</span></p>
                 <p>Phone: <span id="phone">${temple.phone}</span></p>
-                <p>Dedicated: <span id="dedication-date">${temple.dedication}</span></p>
+                <p id="dedication-date">Dedicated: <span>${temple.dedication}</span></p>
                 <div id="check"><label><input class="mycheck" id="check-${temple.id}" type="checkbox" onclick="likeTemple(this);">Like This Temple!</label></div>
              </div>
              <div id="cardImg">
