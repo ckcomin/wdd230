@@ -157,6 +157,9 @@
         text-align: center;
         margin: 5% 0;
     }
+    #tempResBtn{
+        font-size: 12pt;
+    }
     #suiteBtn{
         margin-top: 5%;
     }

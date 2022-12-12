@@ -290,6 +290,7 @@ footer p{
 #tempResBtn{
     display: block;
     text-align: center;
+    font-size: 11pt;
 }
 #cards div img{
     width: 100%;
