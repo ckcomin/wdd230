@@ -130,6 +130,9 @@
         margin: 5% 2%;
         justify-content: center;
     }
+    #tempResBtn{
+        font-size: 1.2rem;
+    }
     #cards section{
         width: 83%;
     }
