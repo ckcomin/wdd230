@@ -137,8 +137,10 @@
         width: 83%;
     }
     #cards div img{
-        max-width: 325px;
-        max-height: 520px;
+        height: auto;
+        width: 100%;
+        max-width: 405px;
+        max-height: 600px;
     }
     .foodImg{
         display: grid;

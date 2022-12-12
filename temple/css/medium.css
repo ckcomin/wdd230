@@ -150,6 +150,7 @@
         transform: scale(1.04);
     }
     #cards div img{
+        height: auto;
         max-width: 239px;
         max-height: 383px;
     }
