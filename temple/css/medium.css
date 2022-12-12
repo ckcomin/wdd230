@@ -160,6 +160,9 @@
     }
     #tempResBtn{
         font-size: .9rem;
+        display: block;
+        text-align: center;
+        max-width: 12.75em;
     }
     #suiteBtn{
         margin-top: 5%;

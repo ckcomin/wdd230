@@ -289,10 +289,7 @@ footer p{
     margin-left: 15%;
 }
 #tempResBtn{
-    display: block;
-    text-align: center;
-    font-size: .8rem;
-    max-width: 12.75em;
+    display: none;
 }
 #cards div img{
     width: 100%;
