@@ -288,6 +288,8 @@ footer {
 }
 #cards div img{
     width: 100%;
+    max-width: 204px;
+    max-height: 327px;
 }
 #cards div input {
     width: 1em;

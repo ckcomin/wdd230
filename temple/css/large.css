@@ -133,6 +133,10 @@
     #cards section{
         width: 83%;
     }
+    #cards div img{
+        max-width: 325px;
+        max-height: 520px;
+    }
     .foodImg{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

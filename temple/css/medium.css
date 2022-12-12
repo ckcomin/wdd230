@@ -144,6 +144,10 @@
     #cards section:hover{
         transform: scale(1.04);
     }
+    #cards div img{
+        max-width: 239px;
+        max-height: 383px;
+    }
     #tempMain h1{
         text-align: center;
         margin: 5% 0;
