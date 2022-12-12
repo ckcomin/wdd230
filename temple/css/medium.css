@@ -21,6 +21,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 64rem;
+        height: 100%;
     }
     footer section {
         margin-bottom: 5%;
