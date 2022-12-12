@@ -20,6 +20,7 @@
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        max-width: 64rem;
     }
     footer section {
         margin-bottom: 5%;
@@ -128,6 +129,10 @@
         width: auto;
         margin-right: 40px;
         margin-left: 40px;
+    }
+    #tempMain h1{
+        max-height: 36px;
+        max-width: 64rem;
     }
     #tempMain h2{
         margin: 8%;

@@ -114,6 +114,8 @@ footer {
     text-align: center;
     font-family: 'Karla', sans-serif; 
     height: 100%;
+    max-width: 39.5em;
+    max-height: 268px;
 }
 #socials .social{
     margin-top: 2%;
@@ -240,6 +242,8 @@ footer {
 #tempMain h1{
     text-align: center;
     margin: 10% 0;
+    max-height: 36px;
+    max-width: 631px;
 }
 #tempMain h2{
     text-align: center;
