@@ -304,9 +304,13 @@ footer p{
 .mycheck{
     font-size: 2rem;
 }
+#check {
+    min-width: 185px;
+}
 #check label{
     margin-left: -10%;
     font-family: 'Karla', sans-serif; 
+    font-size: 1rem;
 }
 #mainRe{
     margin: 2rem 5%;
