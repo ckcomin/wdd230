@@ -117,6 +117,9 @@ footer {
     max-width: 39.5em;
     max-height: 268px;
 }
+footer p{
+    height: 18.4px;
+}
 #socials .social{
     margin-top: 2%;
 }
