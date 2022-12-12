@@ -237,6 +237,10 @@ footer {
     display: flex;
     justify-content: center;
 }
+#tempMain h1{
+    text-align: center;
+    margin: 10% 0;
+}
 #tempMain h2{
     text-align: center;
     font-size: 23pt;
@@ -256,9 +260,6 @@ footer {
     margin-bottom: 18%;
     background-color: #b8cfe0;
     padding: 5%;
-}
-#cards section:hover{
-    transform: scale(1.04);
 }
 #cardWord {
     margin-bottom: auto;

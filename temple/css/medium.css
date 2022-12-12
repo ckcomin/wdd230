@@ -136,6 +136,13 @@
         width: 65%;
         margin: 5% auto;
     }
+    #cards section:hover{
+        transform: scale(1.04);
+    }
+    #tempMain h1{
+        text-align: center;
+        margin: 5% 0;
+    }
     #suiteBtn{
         margin-top: 5%;
     }
