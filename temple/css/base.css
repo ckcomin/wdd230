@@ -269,6 +269,7 @@ footer p{
     padding: 5%;
     max-width: 568px;
     max-height: 428px;
+    min-width: 315px;
 }
 #cardWord {
     margin-bottom: auto;
@@ -297,6 +298,7 @@ footer p{
     width: 100%;
     max-width: 204px;
     max-height: 327px;
+    min-width: 104px;
 }
 #cards div input {
     width: 1em;
