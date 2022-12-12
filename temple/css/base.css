@@ -114,6 +114,7 @@ footer {
     text-align: center;
     font-family: 'Karla', sans-serif; 
     height: 268px;
+    width: 100%;
     max-width: 39.5em;
     max-height: 268px;
 }
