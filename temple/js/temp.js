@@ -1,44 +1,11 @@
-let temples = [
-    {
-        "id": "temple1",
-        "name":"Star Valley",
-        "address": "885 S Washington St, Afton WY 83110, United States",
-        "phone": "307-886-6820",
-        "dedication":"30 October 2016",
-        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-star.webp"
-    },
-    {
-        "id": "temple2",
-        "name":"Meridian",
-        "address": "7355 N Linder Rd, Meridian ID 83646, United States",
-        "phone": "208-957-7300",
-        "dedication":"19 November 2017",
-        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-Meridian.webp"
-    },
-    {
-        "id": "temple3",
-        "name":"Cedar City",
-        "address": "280 South Cove Dr, Cedar City UT 84720, United States",
-        "phone": "435-572-4150",
-        "dedication":"10 December 2017",
-        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-cedar.webp"
-    },
-    {
-        "id": "temple4",
-        "name":"Boise",
-        "address": "1211 S Cole Rd, Boise ID 83709-1871, United States",
-        "phone": "208-322-4422",
-        "dedication":"25 May 1984",
-        "imageURL":"https://ckcomin.github.io/wdd230/temple/images/temp-boise.webp"
-    }
-];
 const LIKES_KEY = "temple-likes";
-let likes_string = localStorage.getItem(LIKES_KEY);
-if (likes_string==null){
-    likes_string="[]";
-    localStorage.setItem(LIKES_KEY, likes_string);
+function initTempleLikes(){
+    let likes_string = localStorage.getItem(LIKES_KEY);
+    if (likes_string==null){
+        likes_string="[]";
+        localStorage.setItem(LIKES_KEY, likes_string);
+    }
 }
-let likeslist = JSON.parse(likes_string);
 function displayTemple(temple){
     let main = document.querySelector("section");
     let newsection = document.createElement("section");
@@ -75,5 +42,18 @@ function displayLike(item){
     let obj = document.getElementById(item);
     obj.checked = true;
 }
-temples.forEach(displayTemple);
-likeslist.forEach(displayLike);
+let requestURL = "json/temples.json";
+initTempleLikes();
+fetch(requestURL)
+        .then((response) => {            
+            return response.json();
+        })
+        .then((jsonObject) => {          
+          let temples = jsonObject['temples'];
+            temples.forEach(displayTemple);
+        })
+        .then(() => {
+            let likes_string = localStorage.getItem(LIKES_KEY);
+            let likeslist = JSON.parse(likes_string);            
+            likeslist.forEach(displayLike);
+        });
